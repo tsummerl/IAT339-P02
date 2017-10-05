@@ -3,13 +3,14 @@
   Default styling for the style guide 
 */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Slab', serif;
   padding: 0 2rem;
   margin: 0;
   font-size: 0.9em;
   color:#3D3D3D;
 }
 h1{
+  font-family: 'Montserrat', sans-serif;
   padding-top: 0.5em;
   margin-bottom: 0;
 }
@@ -27,7 +28,7 @@ strong {
   text-transform: uppercase;
 }
 h3{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-size: 1em;
   color: rgb(26, 189, 197);
@@ -112,7 +113,7 @@ section p {
     text-align: left;
     padding: 0;
     margin: 0;
-    background-color: #F5F5F5;
+    background-color: rgb(59, 75, 117);
   }
    
   .nav a {
@@ -168,15 +169,15 @@ cite {
   font-size: 0.9em;
   font-weight: 500;
   padding: 0.75em 1.25em;
-  color: rgb(120, 198, 201);
-  background-color: rgba(100, 100, 100, 0);
+  color: white;
+  background-color: rgb(59, 75, 117);
   text-decoration: none;
   -webkit-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
 }
 
 .button-nav:hover, .button-nav:focus {
-  background-color: rgb(120, 198, 201);
+  background-color: rgb(42, 56, 87);
   color: white;
 }
 
