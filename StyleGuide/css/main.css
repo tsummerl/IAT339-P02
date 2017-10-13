@@ -4,6 +4,7 @@
 */
 body {
   font-family: 'Roboto Slab', serif;
+  padding: 0 2rem;
   margin: 0;
   font-size: 0.9em;
   color:#3D3D3D;
@@ -60,12 +61,8 @@ section:not([id]) {
 #small-nav li{
   list-style: none;
 }
-.main-nav, .mainNav li{
+.main-nav li .mainNav li {
   list-style: none;
-}
-
-a, a:hover, a:focus {
-  text-decoration: none;
 }
 section h2 {
   margin-top: 0;
@@ -82,51 +79,6 @@ section p {
   display: none;
 }
 
-/*@media screen and (min-width: 50.9375em) {
-  h1{
-    padding-top: 2em;
-  }
-  .flexnav
-  {
-    display: none;
-  }
-  .nav li {
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1em;
-  }
-  .nav li a{
-    padding: 0 2em;
-  }
- 
-  .nav li {
-    display: inline-block;
-    margin-right: -4px;
-  }
-  .header-nav, .headerNav {
-    display: block;
-    box-sizing: border-box;
-    width: 100vw;
-    position: relative;
-    margin-left: -50vw;
-    top: 0;
-    left: 50%;
-  }
-  .nav ul {
-    list-style: none;
-    text-align: left;
-    padding: 0;
-    margin: 0;
-    background-color: rgb(59, 75, 117);
-  }
-   
-  .nav a {
-    text-decoration: none;
-    display: block;
-    transition: .3s background-color;
-  }
-}*/
 
 /* End Navigation Styling */
 section code {
@@ -171,6 +123,7 @@ cite {
 /* Styling for the navigation button */
 .button-nav, .buttonNav {
   display: inline-block;
+  font-size: 0.9em;
   font-weight: 500;
   padding: 0.75em 1.25em;
   color: white;
@@ -246,7 +199,6 @@ section h2 {
 }
 
 
-
 /* 
   COMBINED ELEMENTS -------------------
 */
@@ -307,7 +259,7 @@ section h2 {
   background-color: rgb(236, 179, 94);
 }
 
-/* M E D I A Q U E R I E S*/
+/*M E D I A Q U E R I E S*/
 @media screen and (min-width: 0) {
   h1{
     padding-top: 2em;
@@ -316,63 +268,45 @@ section h2 {
   {
     display: none;
   }
+  .nav li {
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1em;
+  }
+  .nav li a{
+    padding: 0 2em;
+  }
  
-  /*.nav li {
+  .nav li {
     display: inline-block;
     margin-right: -4px;
-  }*/
-  .header-nav, .headerNav {
+  }
+  .header-nav, .headerNav{
     display: block;
     box-sizing: border-box;
+    width: 100vw;
     position: relative;
+    margin-left: -50vw;
     top: 0;
+    left: 50%;
   }
   .nav ul {
     list-style: none;
     text-align: left;
     padding: 0;
+    margin: 0;
     background-color: rgb(59, 75, 117);
   }
-   
+  
+  .mainNav li {
+    width: 25%;
+    text-align: center;
+  }
+
   .nav a {
     text-decoration: none;
     display: block;
     transition: .3s background-color;
-  }
-}
-
-@media (min-width: 0) {
-  .headerNav ul {
-    display: block;
-    box-sizing: border-box;
-    margin: 0;
-    top: 0;
-  }
-
-  .nav li{
-    margin: 0;
-    display: inline-block;
-    width: 24%;
-    text-align: center;
-    font-size: 1.75rem;
-    line-height: 2.5rem;
-    border-bottom: none;
-  }
-
-  .nav li a {
-    padding: 0.75rem;
-  }
-}
-
-@media (max-width: 38em) {
-  .nav li {
-    font-size: 1.25rem;
-  }
-}
-
-@media (min-width: 46em) {
-  .nav li {
-    font-size: 1.25rem;
-    line-height: 2rem;
   }
 }
