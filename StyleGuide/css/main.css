@@ -49,7 +49,8 @@ section:not([id]) {
   border: 0.05em solid #E9E9E9;
   border-radius: 3px;
 }
-#small-nav .button-nav:hover, #small-nav .button-nav:focus {
+#small-nav .button-nav:hover, #small-nav .button-nav:focus, .buttonNav:hover, .buttonNav:focus
+{
   text-decoration: underline;
   background-color: rgba(120, 198, 201, 0);
   color: rgb(120, 198, 201);
@@ -60,7 +61,7 @@ section:not([id]) {
 #small-nav li{
   list-style: none;
 }
-.main-nav li{
+.main-nav li .mainNav li {
   list-style: none;
 }
 section h2 {
@@ -73,55 +74,11 @@ section p {
   margin-top: 0;
 }
  
-.header-nav
+.header-nav, .headerNav
 {
   display: none;
 }
-@media screen and (min-width: 50.9375em) {
-  h1{
-    padding-top: 2em;
-  }
-  .flexnav
-  {
-    display: none;
-  }
-  .nav li {
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1em;
-  }
-  .nav li a{
-    padding: 0 2em;
-  }
- 
-  .nav li {
-    display: inline-block;
-    margin-right: -4px;
-  }
-  .header-nav{
-    display: block;
-    box-sizing: border-box;
-    width: 100vw;
-    position: relative;
-    margin-left: -50vw;
-    top: 0;
-    left: 50%;
-  }
-  .nav ul {
-    list-style: none;
-    text-align: left;
-    padding: 0;
-    margin: 0;
-    background-color: rgb(59, 75, 117);
-  }
-   
-  .nav a {
-    text-decoration: none;
-    display: block;
-    transition: .3s background-color;
-  }
-}
+
 
 /* End Navigation Styling */
 section code {
@@ -164,7 +121,7 @@ cite {
 */
 
 /* Styling for the navigation button */
-.button-nav {
+.button-nav, .buttonNav {
   display: inline-block;
   font-size: 0.9em;
   font-weight: 500;
@@ -176,9 +133,10 @@ cite {
   transition: all 0.25s ease-out;
 }
 
-.button-nav:hover, .button-nav:focus {
+.button-nav:hover, .button-nav:focus, .buttonNav:hover, .buttonNav:focus {
   background-color: rgb(42, 56, 87);
   color: white;
+  text-decoration: none;
 }
 
 /* In-text link*/
@@ -241,7 +199,6 @@ section h2 {
 }
 
 
-
 /* 
   COMBINED ELEMENTS -------------------
 */
@@ -300,4 +257,56 @@ section h2 {
 .orange
 {
   background-color: rgb(236, 179, 94);
+}
+
+/*M E D I A Q U E R I E S*/
+@media screen and (min-width: 0) {
+  h1{
+    padding-top: 2em;
+  }
+  .flexnav
+  {
+    display: none;
+  }
+  .nav li {
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1em;
+  }
+  .nav li a{
+    padding: 0 2em;
+  }
+ 
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+  .header-nav, .headerNav{
+    display: block;
+    box-sizing: border-box;
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    top: 0;
+    left: 50%;
+  }
+  .nav ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(59, 75, 117);
+  }
+  
+  .mainNav li {
+    width: 25%;
+    text-align: center;
+  }
+
+  .nav a {
+    text-decoration: none;
+    display: block;
+    transition: .3s background-color;
+  }
 }
