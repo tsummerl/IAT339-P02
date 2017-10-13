@@ -1,0 +1,25 @@
+pages:
+    - about the company
+    - about the product
+    - sign in page
+
+    - payment
+    - confirmation
+
+    - past boxes - rating
+    - quiz information
+    (all in account page with javascript)
+
+content:
+    - two or three box sample views
+    - pictures of the individual products for ratings
+    - pictures of different kinds of hot drinks (hot chocolate, tea, coffee, decaf coffee)
+    - fake information about the company
+    - faq make proper questions
+    - product descrptions
+
+bugs/issues:
+    - main page does not look good when images aren't large enough
+    - sign up page/ users account
+
+update site map
