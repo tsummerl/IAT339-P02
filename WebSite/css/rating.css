@@ -1,0 +1,48 @@
+
+/* https://css-tricks.com/star-ratings/ */
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    font-size: 2em;
+    float: left;
+  }
+  .rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+  }
+  .rating > span:hover:before,
+  .rating > span:hover ~ span:before {
+    color: rgb(26, 189, 197);
+    content: "\2605";
+    position: absolute;
+  }
+.grid-cell{
+    margin: 1em;
+}
+.bookInfo>h1{
+    padding: 0;
+    margin: 0;
+}
+.bookInfo>h2{
+    font-size: 1.3em;
+}
+.quizRow>.quizAnswer {
+    padding: 1em 0 0 1em;
+}
+section{
+    padding-top: 2em;
+}
+.textArea{
+    display: block;
+}
+.textArea > textarea{
+    width:100%;
+    resize: vertical;
+    border: 2px solid rgb(196, 196, 196);
+    border-radius: 2px;
+    font-family: 'Roboto Slab', serif;
+}
+.textArea > textarea:focus{
+    outline: none;
+}
