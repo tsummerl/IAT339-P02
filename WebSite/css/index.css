@@ -119,3 +119,11 @@
 #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
     color: #428bca;
 }
+.largeCarouselButton
+{
+    font-size: larger;
+    font-weight: bold;
+    padding: 1.5em 2em;
+    bottom: 20%;
+    margin: 0 5em;
+}
