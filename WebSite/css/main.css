@@ -1,0 +1,322 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+    font-family: 'Roboto Slab', serif;
+    padding: 0 2rem;
+    margin: 0;
+    font-size: 0.9em;
+    color:#3D3D3D;
+  }
+  h1{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 0.5em;
+    margin-bottom: 0;
+  }
+  /* Information regarding my name */
+  .projectInfo{
+    margin-top: 0.05em;
+    padding-bottom: 1em;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #5A5A5A
+  }
+  
+  strong {
+    color: rgb(26, 189, 197);
+    text-transform: uppercase;
+  }
+  h3{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: rgb(26, 189, 197);
+  }
+  
+  section:not([id]) {
+    margin: 1em 0;
+    padding: 1.5em 1em;
+    background-color: #F8F8F8;
+    border: 0.05em solid #E9E9E9;
+    border-radius: 3px;
+  }
+  
+  /* Navigation Styling */
+  #small-nav
+  {
+    background-color: #F8F8F8;
+    border: 0.05em solid #E9E9E9;
+    border-radius: 3px;
+  }
+  #small-nav .button-nav:hover, #small-nav .button-nav:focus, .buttonNav:hover, .buttonNav:focus
+  {
+    text-decoration: underline;
+    background-color: rgba(120, 198, 201, 0);
+    color: rgb(120, 198, 201);
+  }
+  #small-nav ul{
+    padding: 0.1em;
+  }
+  #small-nav li{
+    list-style: none;
+  }
+  .main-nav li .mainNav li {
+    list-style: none;
+  }
+  section h2 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    display: block;
+  }
+  
+  section p {
+    margin-top: 0;
+  }
+   
+  .header-nav, .headerNav
+  {
+    display: none;
+  }
+  
+  
+  /* End Navigation Styling */
+  section code {
+    font-family: Courier, 'New Courier', monospace;
+    font-size: 0.9em;
+    background-color: #F5F5F5;
+    border: 0.05em solid #C7C7C7;
+    border-radius: 2px;
+    padding: 1.2em 1em;
+    display: inline-block;
+  }
+  
+  ul.citations {
+    margin-left: 0.25em;
+    padding-left: 0.25em;
+  }
+  
+  ul.citations li {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    padding-bottom: 1em;
+  }
+  
+  ul.citations li strong {
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  cite {
+    font-style: normal;
+  }
+  
+  .flexelement img{
+    max-width: 100%;
+  }
+  
+  /* 
+    INTERACTIVE ELEMENTS -------------------
+  */
+  
+  /* Styling for the navigation button */
+  .button-nav, .buttonNav {
+    display: inline-block;
+    font-size: 0.9em;
+    font-weight: 500;
+    padding: 0.75em 1.25em;
+    color: white;
+    background-color: rgb(59, 75, 117);
+    text-decoration: none;
+    -webkit-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+  
+  .button-nav:hover, .button-nav:focus, .buttonNav:hover, .buttonNav:focus {
+    background-color: rgb(42, 56, 87);
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* In-text link*/
+  .in-text-link
+  {
+    color: rgb(120, 198, 201);
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+  }
+  .in-text-link:hover, .in-text-link:focus
+  {
+    color: rgb(26, 189, 197);
+  }
+  /* Input field */
+  input{
+    padding: 0.5em;
+    font-size: 1em;
+    width: 90%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 0.15em solid rgb(120, 198, 201);
+  }
+  input[type="text"], textarea {
+    
+      background-color : rgba(120, 198, 201, 0); 
+    
+    }
+  input:hover, input:focus{
+    outline: none;
+    border-bottom: 0.25em solid rgb(26, 189, 197);
+  }
+  /* Normal button */
+  .button {
+    display: inline-block;
+    font-size: 0.9em;
+    font-weight: 500;
+    padding: 0.75em 1.25em;
+    color: #FFF;
+    background-color: rgb(120, 198, 201);
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+  }
+  
+  .button:hover, .button:focus {
+    background-color: #2D8586;
+  }
+  /* 
+    TEXT ELEMENTS -------------------
+  */
+  
+  section h1{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  section h2 {
+    color: rgb(59, 75, 117);
+    font-weight: 600;
+  }
+  
+  
+  /* 
+    COMBINED ELEMENTS -------------------
+  */
+  /* Product listing */
+  .productListing h2
+  {
+    padding: 0;
+    font-size: 1.3em;
+  }
+  
+  .productListing h3
+  {
+    font-size: 1.1em;
+  }
+  .small-info
+  {
+    font-weight: 300;
+    font-size: 0.75em;
+  }
+  .savings{
+    color: #E26456;
+    font-weight: 700;
+  }
+  .flexPlan
+  {
+    padding: 1em;
+    margin: 0.5em;
+    border: 2px solid #C7C7C7;
+    border-radius: 0.5em;
+  }
+  .flexPlan:focus, .flexPlan:hover{
+    border: 2px solid rgb(26, 189, 197);
+  }
+  /* End Product listing */
+  
+  /* A C C O U N T V I E W N A V */
+  .accountButtonNav {
+    background-color: rgb(180, 180, 180);
+  }
+  
+  .accountNav ul {
+    background-color: rgb(180, 180, 180);
+  }
+  
+  /* Colour Swatch CSS for colour display */
+  .swatch{
+    height: 7em;
+    width: 7em;
+  }
+  .turquoise
+  {
+    background-color: rgb(26, 189, 197);
+  }
+  
+  .red
+  {
+    background-color: rgb(226, 100, 86);
+  }
+  
+  .dark-blue
+  {
+    background-color: rgb(59, 75, 117);
+  }
+  
+  .orange
+  {
+    background-color: rgb(236, 179, 94);
+  }
+  
+  /*M E D I A Q U E R I E S*/
+  @media screen and (min-width: 0) {
+    h1{
+      padding-top: 2em;
+    }
+    .flexnav
+    {
+      display: none;
+    }
+    .nav li {
+      border-bottom: none;
+      height: 50px;
+      line-height: 50px;
+      font-size: 1em;
+    }
+    .nav li a{
+      padding: 0 2em;
+    }
+   
+    .nav li {
+      display: inline-block;
+      margin-right: -4px;
+    }
+    .header-nav, .headerNav{
+      display: block;
+      box-sizing: border-box;
+      width: 100vw;
+      position: relative;
+      margin-left: -50vw;
+      top: 0;
+      left: 50%;
+    }
+    .nav ul {
+      list-style: none;
+      text-align: left;
+      padding: 0;
+      margin: 0;
+      background-color: rgb(59, 75, 117);
+    }
+    
+    .mainNav li {
+      width: 25%;
+      text-align: center;
+    }
+  
+    .nav a {
+      text-decoration: none;
+      display: block;
+      transition: .3s background-color;
+    }
+  }
+  
