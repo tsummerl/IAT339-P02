@@ -37,6 +37,8 @@ section{
     display: block;
 }
 .textArea > textarea{
+    padding: 1em;
+    font-size: 1em;
     width:100%;
     resize: vertical;
     border: 2px solid rgb(196, 196, 196);
