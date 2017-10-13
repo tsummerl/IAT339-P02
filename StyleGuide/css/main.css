@@ -245,8 +245,6 @@ section h2 {
   font-weight: 600;
 }
 
-
-
 /* 
   COMBINED ELEMENTS -------------------
 */
@@ -281,6 +279,15 @@ section h2 {
   border: 2px solid rgb(26, 189, 197);
 }
 /* End Product listing */
+
+/* A C C O U N T V I E W N A V */
+.accountButtonNav {
+  background-color: rgb(180, 180, 180);
+}
+
+.accountNav ul {
+  background-color: rgb(180, 180, 180);
+}
 
 /* Colour Swatch CSS for colour display */
 .swatch{
@@ -331,7 +338,7 @@ section h2 {
     list-style: none;
     text-align: left;
     padding: 0;
-    background-color: rgb(59, 75, 117);
+    /*background-color: rgb(59, 75, 117);*/
   }
    
   .nav a {
