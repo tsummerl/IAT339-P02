@@ -1,0 +1,30 @@
+.quizRow{
+    margin: 1em;
+}
+.textCenter{
+    text-align: center;
+}
+.textRight
+{
+    text-align: right;
+}
+.quizRow>.quizAnswer {
+    padding: 1em 0 0 1em;
+}
+.quizAnswer>.quizAnswerInfo{
+    border: 2px solid rgba(70, 70, 70, 0.37);
+    border-radius: 5px;
+    padding: 2em;
+    background-color: rgb(240, 240, 240);
+}
+.quizAnswerInfo>img{
+    max-width: 100%;
+}
+.quiz {
+    padding: 2em 0;
+}
+.quizAnswer>.quizAnswerInfo:hover, .quizAnswer>.quizAnswerInfo:focus{
+    border: 2px solid rgb(26, 189, 197);
+    background-color: rgba(96, 197, 201, 0.418);
+    border-radius: 5px;
+}
