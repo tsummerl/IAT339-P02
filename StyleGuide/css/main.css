@@ -4,7 +4,6 @@
 */
 body {
   font-family: 'Roboto Slab', serif;
-  padding: 0 2rem;
   margin: 0;
   font-size: 0.9em;
   color:#3D3D3D;
@@ -49,7 +48,8 @@ section:not([id]) {
   border: 0.05em solid #E9E9E9;
   border-radius: 3px;
 }
-#small-nav .button-nav:hover, #small-nav .button-nav:focus {
+#small-nav .button-nav:hover, #small-nav .button-nav:focus, .buttonNav:hover, .buttonNav:focus
+{
   text-decoration: underline;
   background-color: rgba(120, 198, 201, 0);
   color: rgb(120, 198, 201);
@@ -60,8 +60,12 @@ section:not([id]) {
 #small-nav li{
   list-style: none;
 }
-.main-nav li{
+.main-nav, .mainNav li{
   list-style: none;
+}
+
+a, a:hover, a:focus {
+  text-decoration: none;
 }
 section h2 {
   margin-top: 0;
@@ -73,11 +77,12 @@ section p {
   margin-top: 0;
 }
  
-.header-nav
+.header-nav, .headerNav
 {
   display: none;
 }
-@media screen and (min-width: 50.9375em) {
+
+/*@media screen and (min-width: 50.9375em) {
   h1{
     padding-top: 2em;
   }
@@ -99,7 +104,7 @@ section p {
     display: inline-block;
     margin-right: -4px;
   }
-  .header-nav{
+  .header-nav, .headerNav {
     display: block;
     box-sizing: border-box;
     width: 100vw;
@@ -121,7 +126,7 @@ section p {
     display: block;
     transition: .3s background-color;
   }
-}
+}*/
 
 /* End Navigation Styling */
 section code {
@@ -164,9 +169,8 @@ cite {
 */
 
 /* Styling for the navigation button */
-.button-nav {
+.button-nav, .buttonNav {
   display: inline-block;
-  font-size: 0.9em;
   font-weight: 500;
   padding: 0.75em 1.25em;
   color: white;
@@ -176,9 +180,10 @@ cite {
   transition: all 0.25s ease-out;
 }
 
-.button-nav:hover, .button-nav:focus {
+.button-nav:hover, .button-nav:focus, .buttonNav:hover, .buttonNav:focus {
   background-color: rgb(42, 56, 87);
   color: white;
+  text-decoration: none;
 }
 
 /* In-text link*/
@@ -300,4 +305,74 @@ section h2 {
 .orange
 {
   background-color: rgb(236, 179, 94);
+}
+
+/* M E D I A Q U E R I E S*/
+@media screen and (min-width: 0) {
+  h1{
+    padding-top: 2em;
+  }
+  .flexnav
+  {
+    display: none;
+  }
+ 
+  /*.nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }*/
+  .header-nav, .headerNav {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+  }
+  .nav ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    background-color: rgb(59, 75, 117);
+  }
+   
+  .nav a {
+    text-decoration: none;
+    display: block;
+    transition: .3s background-color;
+  }
+}
+
+@media (min-width: 0) {
+  .headerNav ul {
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+    top: 0;
+  }
+
+  .nav li{
+    margin: 0;
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    border-bottom: none;
+  }
+
+  .nav li a {
+    padding: 0.75rem;
+  }
+}
+
+@media (max-width: 38em) {
+  .nav li {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 46em) {
+  .nav li {
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
 }
