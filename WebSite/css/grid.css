@@ -1,0 +1,7 @@
+/* Styling specifically for the grids on the page */
+
+*, *::after, *::before{
+    /* after and before pseudo elements are elements that are injected into that page
+    they aren't written into the html */
+    box-sizing: border-box;
+}

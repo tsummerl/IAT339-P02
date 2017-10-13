@@ -34,14 +34,14 @@ body {
     color: rgb(26, 189, 197);
   }
   
-  section:not([id]) {
+  /* section:not([id]) {
     margin: 1em 0;
     padding: 1.5em 1em;
     background-color: #F8F8F8;
     border: 0.05em solid #E9E9E9;
     border-radius: 3px;
   }
-  
+   */
   /* Navigation Styling */
   #small-nav
   {
@@ -81,15 +81,6 @@ body {
   
   
   /* End Navigation Styling */
-  section code {
-    font-family: Courier, 'New Courier', monospace;
-    font-size: 0.9em;
-    background-color: #F5F5F5;
-    border: 0.05em solid #C7C7C7;
-    border-radius: 2px;
-    padding: 1.2em 1em;
-    display: inline-block;
-  }
   
   ul.citations {
     margin-left: 0.25em;
