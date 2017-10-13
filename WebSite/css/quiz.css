@@ -1,13 +1,6 @@
 .quizRow{
     margin: 1em;
 }
-.textCenter{
-    text-align: center;
-}
-.textRight
-{
-    text-align: right;
-}
 .quizRow>.quizAnswer {
     padding: 1em 0 0 1em;
 }
