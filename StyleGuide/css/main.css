@@ -234,6 +234,15 @@ section h2 {
 }
 /* End Product listing */
 
+/* A C C O U N T V I E W N A V */
+.accountButtonNav {
+  background-color: rgb(180, 180, 180);
+}
+
+.accountNav ul {
+  background-color: rgb(180, 180, 180);
+}
+
 /* Colour Swatch CSS for colour display */
 .swatch{
   height: 7em;
