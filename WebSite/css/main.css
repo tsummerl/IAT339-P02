@@ -12,7 +12,6 @@ body {
   }
   h1{
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: 0;
     line-height: 1em;
   }
   /* Information regarding my name */
@@ -191,40 +190,6 @@ body {
   }
   
   
-  /* 
-    COMBINED ELEMENTS -------------------
-  */
-  /* Product listing */
-  .productListing h2
-  {
-    padding: 0;
-    font-size: 1.3em;
-  }
-  
-  .productListing h3
-  {
-    font-size: 1.1em;
-  }
-  .small-info
-  {
-    font-weight: 300;
-    font-size: 0.75em;
-  }
-  .savings{
-    color: #E26456;
-    font-weight: 700;
-  }
-  .flexPlan
-  {
-    padding: 1em;
-    margin: 0.5em;
-    border: 2px solid #C7C7C7;
-    border-radius: 0.5em;
-  }
-  .flexPlan:focus, .flexPlan:hover{
-    border: 2px solid rgb(26, 189, 197);
-  }
-  /* End Product listing */
   
   /* A C C O U N T V I E W N A V */
   .subheaderNav {

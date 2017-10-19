@@ -1,7 +1,40 @@
 .signupForm{
     padding: 2em 0;
 }
-.productListing
+  /* Product listing */
+  .productListing
+  {
+      line-height: 1.2em;
+  }
+  .productListing h2
+  {
+    padding: 0;
+    margin: 0;
+    font-size: 1.3em;
+  }
+  
+  .productListing h3
+  {
+    margin: 0;
+    font-size: 1.1em;
+  }
+  .small-info
+  {
+    font-weight: 300;
+    font-size: 0.75em;
+  }
+  .savings{
+    color: #E26456;
+    margin: 0;
+    font-weight: 700;
+  }
+.flexPlan
 {
-    padding: 2em 0;
+  padding: 1em;
+  margin: 0.5em;
+  border: 2px solid #C7C7C7;
+  border-radius: 0.5em;
+}
+.flexPlan:focus, .flexPlan:hover{
+  border: 2px solid rgb(26, 189, 197);
 }
