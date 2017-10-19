@@ -8,11 +8,12 @@ body {
     margin: 0;
     font-size: 0.9em;
     color:#3D3D3D;
+    line-height: 1.5em;
   }
   h1{
     font-family: 'Montserrat', sans-serif;
-    padding-top: 0.5em;
     margin-bottom: 0;
+    line-height: 1em;
   }
   /* Information regarding my name */
   .projectInfo{
@@ -269,9 +270,6 @@ body {
   
   /*M E D I A Q U E R I E S*/
   @media screen and (min-width: 0) {
-    h1{
-      padding-top: 2em;
-    }
     .flexnav
     {
       display: none;

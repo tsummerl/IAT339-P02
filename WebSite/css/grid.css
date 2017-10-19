@@ -8,6 +8,10 @@
 /*
 https://philipwalton.github.io/solved-by-flexbox/demos/grids/
 */
+body{
+  -webkit-box-direction: normal;
+
+}
 .Grid {
     display: flex;
     flex-wrap: wrap;
@@ -76,7 +80,7 @@ https://philipwalton.github.io/solved-by-flexbox/demos/grids/
     flex: 0 0 25%;
   }
   
-  @media (--break-sm) {
+  @media (min-width: 24em) {
     .small-Grid--fit > .Grid-cell {
       flex: 1;
     }
@@ -94,7 +98,7 @@ https://philipwalton.github.io/solved-by-flexbox/demos/grids/
     }
   }
   
-  @media (--break-md) {
+  @media (min-width: 36em) {
     .med-Grid--fit > .Grid-cell {
       flex: 1;
     }
@@ -112,7 +116,7 @@ https://philipwalton.github.io/solved-by-flexbox/demos/grids/
     }
   }
   
-  @media (--break-lg) {
+  @media (min-width: 40em) {
     .large-Grid--fit > .Grid-cell {
       flex: 1;
     }
@@ -151,7 +155,7 @@ https://philipwalton.github.io/solved-by-flexbox/demos/grids/
     padding: 2em 0 0 2em;
   }
   
-  @media (--break-sm) {
+  @media (min-width: 22em) {
     .small-Grid--gutters {
       margin: -1em 0 1em -1em;
     }
@@ -172,7 +176,7 @@ https://philipwalton.github.io/solved-by-flexbox/demos/grids/
     }
   }
   
-  @media (--break-md) {
+  @media (min-width: 24em) {
     .med-Grid--gutters {
       margin: -1em 0 1em -1em;
     }
@@ -193,7 +197,7 @@ https://philipwalton.github.io/solved-by-flexbox/demos/grids/
     }
   }
   
-  @media (--break-lg) {
+  @media (min-width: 48em) {
     .large-Grid--gutters {
       margin: -1em 0 1em -1em;
     }
@@ -220,4 +224,9 @@ https://philipwalton.github.io/solved-by-flexbox/demos/grids/
 .textRight
 {
     text-align: right;
+}
+.gridInfo
+{
+  width: 100%;
+  padding: .8em 1em 0;
 }
