@@ -1,18 +1,16 @@
   /* A C C O U N T V I E W N A V */
-  .subheaderNav {
-    background-color: rgb(180, 180, 180);
-  }
+
 
   .subheaderNav .buttonNav:hover, .subheaderNav .buttonNav:focus {
-    background-color: rgb(130, 130, 130);
+    text-decoration: underline;
+    background-color: rgba(180, 180, 180, 0);
+    color: rgb(16, 139, 143);
   }
 
-  .accountButtonNav {
-    background-color: rgb(180, 180, 180);
-  }
-  
-  .accountNav ul {
-    background-color: rgb(180, 180, 180);
+  .accountButtonNav, .subheaderNav, .accountNav ul {
+    background-color: rgba(180, 180, 180, 0);
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
   }
 
   .subheaderNav {
@@ -24,21 +22,27 @@
     width: 100vw;
     position: absolute;
   }
-
+  .accountNav ul li a{
+      color: rgb(26, 189, 197);
+  }
   .subheaderNav li {
     width: 25%;
     text-align: center;
   }
 
-  @media (min-width: 52em) {
+    @media (min-width: 52em) {
     .subheaderNav {
-      width: 25%;
-      height: 100%;
+    padding-top: 2em;
+    width: 25%;
+    height: 100%;
     }
 
     .subheaderNav li {
       display: block;
       width: 100%;
       padding: 2rem 0;
+    }
+    .accountNav{
+        border-right: 2px solid rgb(26, 189, 197);
     }
   }
