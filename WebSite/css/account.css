@@ -1,12 +1,11 @@
   /* A C C O U N T V I E W N A V */
 
 
-  .subheaderNav .buttonNav:hover, .subheaderNav .buttonNav:focus {
-    text-decoration: underline;
+  .buttonNav:active, .buttonNav:hover {
     background-color: rgba(180, 180, 180, 0);
-    color: rgb(16, 139, 143);
+    color: white;
+    outline: none;
   }
-
   .accountButtonNav, .subheaderNav, .accountNav ul {
     background-color: rgba(180, 180, 180, 0);
     font-weight: bold;
@@ -18,23 +17,33 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    left: 0;
     width: 100vw;
-    position: absolute;
   }
-  .accountNav ul li a{
+  .accountNav ul li button{
       color: rgb(26, 189, 197);
+      border: none;
+      cursor: pointer;
   }
   .subheaderNav li {
     width: 25%;
     text-align: center;
   }
-
+.subheaderNav li:hover, .subheaderNav li:focus{
+    background-color: rgb(26, 189, 197);
+}
+.subheaderNav li:hover > .buttonNav, .subheaderNav li:focus>.buttonNav{
+    color: white;
+    outline: none;
+}
     @media (min-width: 52em) {
+
+        .accountNav ul li button{
+            display: inline-block;
+        }
     .subheaderNav {
-    padding-top: 2em;
-    width: 25%;
-    height: 100%;
+        float: left;
+        width: 25%;
+        height: 100%;
     }
 
     .subheaderNav li {
@@ -44,5 +53,13 @@
     }
     .accountNav{
         border-right: 2px solid rgb(26, 189, 197);
+    }
+    .tabContent{
+        display: block;
+        padding: 0em 1em;
+        border: 2px solid rgb(26, 189, 197);
+        border-left: none;
+        width: 70%;
+        float: left;
     }
   }
