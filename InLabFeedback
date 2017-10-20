@@ -1,4 +1,4 @@
-CONTENT
+USABILITY
 - paragraphs
 	> good
 	> how to curate boxes too long
@@ -28,3 +28,18 @@ OTHER
 - line up left alignments across all elements
 - fix focus on acct view
 
+DEVICE VIEW
+apple device landscape
+- sub nav overflows, horizontal scroll
+samsung device portrait
+- nav is wonky
+- stack subscription options
+- viewport needs to be changed on FAQ
+
+DISCUSSION:
+
+/USABILITY
+Our content was generally good, however a few specific changes can be made. In particular, the answer in one of or FAQ questions is too long, and should either be broken up into multiple questions, or made more concise. Another comment that was made was about the similarity between the h1s and h2s on certain pages, but that the font type and weights might be different enough to leave as is. Lastly, the line colours on the subscription page were overwhelming and can be toned down.
+
+/FINDABILITY
+The account view needs to have clearer 
