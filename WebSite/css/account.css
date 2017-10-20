@@ -10,6 +10,8 @@
     background-color: rgba(180, 180, 180, 0);
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
+    -webkit-transition: none;
+    transition: none;
   }
 
   .subheaderNav {
@@ -30,6 +32,11 @@
   }
 .subheaderNav li:hover, .subheaderNav li:focus{
     background-color: rgb(26, 189, 197);
+}
+.activeNavButton{
+    color: white!important;
+    background-color: rgb(26, 189, 197)!important;
+    outline: none;
 }
 .subheaderNav li:hover > .buttonNav, .subheaderNav li:focus>.buttonNav{
     color: white;
@@ -55,10 +62,10 @@
         border-right: 2px solid rgb(26, 189, 197);
     }
     .tabContent{
-        display: block;
+        display: none;
         padding: 0em 1em;
-        border: 2px solid rgb(26, 189, 197);
-        border-left: none;
+        /* border: 2px solid rgb(26, 189, 197);
+        border-left: none; */
         width: 70%;
         float: left;
     }
