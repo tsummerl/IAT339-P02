@@ -12,6 +12,9 @@
     font-family: 'Open Sans', sans-serif;
     -webkit-transition: none;
     transition: none;
+    width: 100%;
+    height: 100%;
+
   }
 
   .subheaderNav {
@@ -27,8 +30,9 @@
       cursor: pointer;
   }
   .subheaderNav li {
-    width: 25%;
-    text-align: center;
+      box-sizing: content-box;
+      width: 25%;
+      text-align: center;
   }
 .subheaderNav li:hover, .subheaderNav li:focus{
     background-color: rgb(26, 189, 197);

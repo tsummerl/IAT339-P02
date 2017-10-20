@@ -1,3 +1,4 @@
+'use strict';
 $(document).ready(function(){
     var tabContent, tabLinks;
     tabContent = $('.tabContent').css("display", "none");
