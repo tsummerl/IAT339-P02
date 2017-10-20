@@ -1,6 +1,4 @@
-.signupForm{
-    padding: 2em 0;
-}
+
   /* Product listing */
   .productListing
   {
@@ -10,7 +8,6 @@
   {
     padding: 0;
     margin: 0;
-    font-size: 1.3em;
   }
   
   .productListing h3
@@ -31,10 +28,43 @@
 .flexPlan
 {
   padding: 1em;
-  margin: 0.5em;
+  width: 100%;
   border: 2px solid #C7C7C7;
   border-radius: 0.5em;
 }
+.flexPlan>h2, .flexPlan>h3, .flexPlan>.savings{
+  font-size: smaller;
+}
 .flexPlan:focus, .flexPlan:hover{
   border: 2px solid rgb(26, 189, 197);
+}
+.Grid {
+  margin-bottom: 2em;
+}
+.smallHidden{
+  display: none;
+}
+.nextStep{
+  padding-top: 2em !important;
+}
+.Grid-cell>label{
+  line-height: 2em;
+  font-family: sans-serif;
+}
+@media (min-width: 36em) {
+  .flexPlan
+  {
+    padding: 1em;
+  }
+  .flexPlan>h2, .flexPlan>h3{
+    font-size: larger;
+  }
+  .productListing
+  {
+      line-height: 1.2em;
+      padding: 2em;
+  }
+  .signupForm{
+    padding: 2em;
+}
 }

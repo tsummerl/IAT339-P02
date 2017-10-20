@@ -145,7 +145,7 @@ body {
   input{
     padding: 0.5em;
     font-size: 1em;
-    width: 90%;
+    width: 100%;
     box-sizing: border-box;
     border: none;
     border-bottom: 0.15em solid rgb(120, 198, 201);
@@ -232,7 +232,16 @@ body {
   {
     background-color: rgb(236, 179, 94);
   }
-  
+  select{
+    padding: 0.5em;
+    border: 2px solid rgb(26, 189, 197);
+    color: gray;
+    width: 100%;
+  }
+  select:focus
+  {
+    outline: none;
+  }
   /*M E D I A Q U E R I E S*/
   @media screen and (min-width: 0) {
     .flexnav

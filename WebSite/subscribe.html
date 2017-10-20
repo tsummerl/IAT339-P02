@@ -3,7 +3,9 @@
 <head>
 
     <meta charset="utf-8">
-    <title>P02 Navigation WIP</title>
+    <title>Subscribe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
@@ -25,32 +27,66 @@
         </nav>
     </div>
     <section>
-        <h1>Sign Up - General</h1>
-        <div class="productListing Grid Grid--gutters Grid--flexCells">
+        <h1>Sign Up</h1>
+        <div class="productListing Grid Grid--flexCells Grid--gutters">
+                <div class="Grid-cell Grid-cell-All">
+                    <h2>Choose a Plan</h2>
+                </div>
              <div class="Grid-cell">
                 <div class="flexPlan">
                   <h2>Monthly</h2>
                   <h3>$25.00 CAD</h3>
-                  <p class="small-info">*Reoccurs monthly, additional taxes extra. Shipping cost may be applied</p>
+                  <p class="small-info smallHidden">*Reoccurs monthly, additional taxes extra. Shipping cost may be applied</p>
                  </div>
             </div>
              <div class="Grid-cell">
                 <div class="flexPlan">
                   <h2>Yearly</h2>
                   <h3>$250.00 CAD</h3>
-                  <p class="savings">$$50 dollar savings!</p>
-                  <p class="small-info">*Reoccurs monthly, additional taxes extra. Shipping cost may be applied</p>
+                  <p class="savings">$50 dollar savings!</p>
+                  <p class="small-info smallHidden">*Reoccurs yearly, additional taxes extra. Shipping cost may be applied</p>
                 </div>
              </div>
         </div>
-        <form class="signupForm Grid Grid--full">
+        <form class="signupForm Grid Grid--full Grid--gutters">
+            <div class="Grid-cell">
+                <h2>Account Info</h2>
+            </div>
             <div class="Grid-cell">
                 <input id="inputEmail" placeholder="Email" type="text">
                 <input id="inputUsername" placeholder="Username" type="text">
                 <input id="inputPassword" placeholder="Password" type="text">
                 <input id="inputConfirmPassword" placeholder="Confirm Password" type="text">
             </div>
-            <div class="Grid-cell textRight">
+            <div class="Grid-cell nextStep">
+                <h2>Credit Card Info</h2>
+                <div class="Grid-cell">
+                    <input id="inputFirstName" placeholder="First Name" type="text">
+                    <input id="inputLastName" placeholder="Last Name" type="text">
+                    <input id="inputCreditCard" placeholder="Credit Card Number" type="text">
+                    <input id="inputExpiration" placeholder="Expiration" type="text">
+                </div>
+            </div>
+            <div class="Grid-cell nextStep">
+                <h2>Shipping</h2>
+                <div class="Grid Grid-no-margin">
+                    <div class="Grid-cell">
+                        <label for="selectCountry">Country:</label>
+                    </div>
+                    <div class="Grid-cell">
+                        <select name="selectCountry">
+                            <option value="canada">Canada</option>
+                            <option value="states">United States</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="Grid-cell">
+                    <input id="inputAddress" placeholder="Address" type="text">
+                    <input id="inputCity" placeholder="City" type="text">
+                    <input id="inputPosticalCode" placeholder="Postal Code" type="text">
+                </div>
+            </div>
+            <div class="Grid-cell Grid-cell-All">
                 <a href="subscribe.html" class="button">Submit</a>
             </div>
         </form>

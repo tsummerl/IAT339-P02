@@ -43,6 +43,9 @@ body{
   .Grid--justifyCenter {
     justify-content: center;
   }
+  .Grid--justifySpaceBetween{
+    justify-content: space-between;
+  }
   
   .Grid-cell--top {
     align-self: flex-start;
@@ -229,4 +232,19 @@ body{
 {
   width: 100%;
   padding: .8em 1em 0;
+}
+.Grid-cell-All{
+  width: 100%!important;
+  -webkit-box-flex: 0!important;
+  -webkit-flex: none!important;
+  -ms-flex: none!important;
+  flex: none!important;
+  margin-bottom: 2em;
+}
+.Grid-cell-All>a{
+  width: 100%;
+  text-align: center;
+}
+.Grid .Grid-no-margin{
+  margin-bottom: 0 ;
 }
