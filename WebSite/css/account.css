@@ -46,6 +46,9 @@
     color: white;
     outline: none;
 }
+.reviewIcons{
+    max-height: 150px;
+}
     @media (min-width: 52em) {
 
         .accountNav ul li button{
