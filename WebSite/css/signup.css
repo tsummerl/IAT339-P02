@@ -12,7 +12,6 @@
   
   .productListing h3
   {
-    margin: 0;
     font-size: 1.1em;
   }
   .small-info
@@ -25,19 +24,19 @@
     margin: 0;
     font-weight: 700;
   }
-.flexPlan
-{
-  padding: 1em;
-  width: 100%;
-  border: 2px solid #C7C7C7;
-  border-radius: 0.5em;
-}
-.flexPlan>h2, .flexPlan>h3, .flexPlan>.savings{
-  font-size: smaller;
-}
-.flexPlan:focus, .flexPlan:hover{
-  border: 2px solid rgb(26, 189, 197);
-}
+  .flexPlan
+  {
+    padding: 1em;
+    width: 100%;
+    border: 2px solid #C7C7C7;
+    border-radius: 0.5em;
+  }
+  .flexPlan>h2, .flexPlan>h3, .flexPlan>.savings{
+    font-size: smaller;
+  }
+  .flexPlan:focus, .flexPlan:hover{
+    border: 2px solid rgb(26, 189, 197);
+  }
 .Grid {
   margin-bottom: 2em;
 }
