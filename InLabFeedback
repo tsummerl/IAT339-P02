@@ -28,6 +28,17 @@ OTHER
 - line up left alignments across all elements
 - fix focus on acct view
 
+
+AREAS OF IMPROVEMENT:
+Needs more content, pages need to be more complete. Margins need to be flused. Front page requires more content, in a sort of image to large, tiny bit of scroll state.
+
+Hide nav, show all the content for the account page if javaScript doesn't work.
+
+Form fields should be more managable
+We need the whole quiz
+
+Fix issues with mobile, nav should use flex
+
 DEVICE VIEW
 apple device landscape
 - sub nav overflows, horizontal scroll
