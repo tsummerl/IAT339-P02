@@ -53,14 +53,19 @@ label{
   text-align: left;
   padding-left: 0.5em;
 }
+.Grid-cell>label{
+  line-height: 2em;
+  font-family: sans-serif;
+}
 @media (max-width: 70em){
   .Grid-cell>input{
     width: 99%;
   }
 }
-.Grid-cell>label{
-  line-height: 2em;
-  font-family: sans-serif;
+@media (max-width: 36em){
+  .Grid-cell-1of4{
+    width: 50%!important;
+  }
 }
 @media (min-width: 36em) {
   .flexPlan
@@ -77,5 +82,6 @@ label{
   }
   .signupForm{
     padding: 2em;
-}
+  }
+
 }

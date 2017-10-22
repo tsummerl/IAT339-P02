@@ -78,10 +78,34 @@
             <div class="Grid-cell nextStep">
                 <h2>Credit Card Info</h2>
                 <div class="Grid-cell">
-                    <input id="inputFirstName" placeholder="First Name" type="text">
-                    <input id="inputLastName" placeholder="Last Name" type="text">
-                    <input id="inputCreditCard" placeholder="Credit Card Number" type="text">
-                    <input id="inputExpiration" placeholder="Expiration" type="text">
+                    <div class="Grid Grid--gutters Grid--full med-Grid--1of2">
+                        <div class="Grid-cell">
+                            <label for="inputFirstName">First Name:</label>
+                            <input id="inputFirstName" name="First Name" placeholder="First Name" type="text">
+                        </div>
+                        <div class="Grid-cell">
+                            <label for="inputLastName">Last Name:</label>
+                            <input id="inputLastName" name="Last Name" placeholder="Last Name" type="text">
+                        </div>
+                    </div>
+                    <div class="Grid Grid--gutters">
+                        <div class="Grid-cell Grid-cell-All">
+                            <label for="inputCreditCard">Credit Card Number:</label>
+                            <input id="inputCreditCard" name="Credit Card Number" placeholder="Credit Card Number" type="text">
+                        </div>
+                        <div class="Grid-cell Grid-cell-1of4">
+                            <label for="inputExpiration">Expiration Date:</label>
+                            <input id="inputExpiration" name="Expiration Date" placeholder="MM-YYYY" type="text">
+                        </div>
+                        <div class="Grid-cell Grid-cell-1of4">
+                            <label for="inputCVV">CVV:</label>
+                            <input id="inputCVV" placeholder="CVV" name="CVV" type="text">
+                        </div>
+                        <div class="Grid-cell">
+                            <label for="inputBillingZip">Billing Zip/Postal:</label>
+                            <input id="inputBillingZip" name="Billing Zip/Postal Code" placeholder="Billing Zip/Postal Code" type="text">
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="Grid-cell nextStep">

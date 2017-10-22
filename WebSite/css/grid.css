@@ -245,6 +245,15 @@ body{
   width: 100%;
   text-align: center;
 }
+.Grid-cell-All>input{
+  width: 100%;
+}
 .Grid .Grid-no-margin{
   margin-bottom: 0 ;
+}
+
+.Grid-cell-1of4{
+  -webkit-box-flex: 0!important;
+  width: 25%!important;
+  flex: none!important;
 }
