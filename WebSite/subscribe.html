@@ -53,11 +53,28 @@
                 <h2>Account Info</h2>
             </div>
             <div class="Grid-cell">
-                <input id="inputEmail" placeholder="Email" type="text">
-                <input id="inputUsername" placeholder="Username" type="text">
-                <input id="inputPassword" placeholder="Password" type="text">
-                <input id="inputConfirmPassword" placeholder="Confirm Password" type="text">
+                <div class="Grid Grid--gutters Grid--full med-Grid--1of2">
+                    <div class="Grid-cell">
+                        <label for="inputEmail">Email:</label>
+                        <input id="inputEmail" name="email" placeholder="Email" type="text">
+                    </div>
+                    <div class="Grid-cell">
+                        <label for="inputUsername">Username:</label>
+                        <input id="inputUsername" name="username" placeholder="Username" type="text">
+                    </div>
+                </div>
+                <div class="Grid Grid--gutters Grid--full med-Grid--1of2">
+                    <div class="Grid-cell">
+                        <label for="inputPassword">Password:</label>
+                        <input id="inputPassword" name="password" placeholder="Password" type="text">
+                    </div>
+                    <div class="Grid-cell">
+                        <label for="inputConfirmPassword">Confirm Password:</label>
+                        <input id="inputConfirmPassword" name="confirm password" placeholder="Confirm Password" type="text">
+                    </div>
+                </div>
             </div>
+            
             <div class="Grid-cell nextStep">
                 <h2>Credit Card Info</h2>
                 <div class="Grid-cell">

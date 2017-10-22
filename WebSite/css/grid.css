@@ -101,7 +101,7 @@ body{
     }
   }
   
-  @media (min-width: 36em) {
+  @media (min-width: 47.125em) {
     .med-Grid--fit > .Grid-cell {
       flex: 1;
     }
