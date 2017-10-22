@@ -1,0 +1,56 @@
+USABILITY
+- paragraphs
+	> good
+	> how to curate boxes too long
+- hierarchy
+	> clear
+	> h1/h2 too close in weight? 
+	> tone down the line colours
+- links
+	> juuuust right
+	> nesting?
+- typos
+	> none
+
+
+FINDABILITY
+- logical links to deeper content
+	> acct view
+	> create actual sign in page
+	> fill home page with others?
+	> footer
+	> add take quiz to home page
+- clear nav
+	> no hover
+- task complete
+
+OTHER
+- line up left alignments across all elements
+- fix focus on acct view
+
+
+AREAS OF IMPROVEMENT:
+Needs more content, pages need to be more complete. Margins need to be flused. Front page requires more content, in a sort of image to large, tiny bit of scroll state.
+
+Hide nav, show all the content for the account page if javaScript doesn't work.
+
+Form fields should be more managable
+We need the whole quiz
+
+Fix issues with mobile, nav should use flex
+
+DEVICE VIEW
+apple device landscape
+- sub nav overflows, horizontal scroll
+samsung device portrait
+- nav is wonky
+- stack subscription options
+- viewport needs to be changed on FAQ
+
+DISCUSSION:
+
+/USABILITY
+Our content was generally good, however a few specific changes can be made. In particular, the answer in one of or FAQ questions is too long, and should either be broken up into multiple questions, or made more concise. Another comment that was made was about the similarity between the h1s and h2s on certain pages, but that the font type and weights might be different enough to leave as is. Lastly, the line colours on the subscription page were overwhelming and can be toned down.
+
+/FINDABILITY
+The account view needs to have clearer 

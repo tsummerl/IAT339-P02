@@ -30,3 +30,33 @@ bugs/issues:
     change colours, remove background
 
 update site map
+
+// oct 20 lab desk crit w andrew
+1. spend time on mobile
+2. spend time on quiz
+3. return to home page and flesh out more
+
+office hours tuesday & thursday
+
+HOME PAGE
+- get rid of ul
+- turn nav into flex
+- direct the user to somewhere from home page
+SUBSCRIBE
+- more clustering of form fields
+    > break up relevant forms
+- add label to forms and cue inside form
+- type of content inform size of field
+- subscription button smaller
+- reorganize forms at bigger media size
+    > margins
+    > 3 columns
+    > etc.
+- complete subscription process
+FAQ
+- answer questions elsewhere
+ACCOUNT
+- button styling
+- take quiz as more prominent
+QUIZ
+- flesh out
