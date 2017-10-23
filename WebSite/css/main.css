@@ -4,11 +4,16 @@
 */
 body {
     font-family: 'Roboto Slab', serif;
-    padding: 0 2rem;
     margin: 0;
+    padding: 0 1rem;
     font-size: 0.9em;
     color:#3D3D3D;
     line-height: 1.5em;
+  }
+  @media (min-width: 24em){
+    body{
+      padding: 0 2rem;
+    }
   }
   @media (min-width: 87.500em)
   {
@@ -25,6 +30,9 @@ body {
   h1{
     font-family: 'Montserrat', sans-serif;
     line-height: 1em;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 800;
   }
   /* Information regarding my name */
   .projectInfo{
@@ -38,6 +46,11 @@ body {
   strong {
     color: rgb(26, 189, 197);
     text-transform: uppercase;
+  }
+  small {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    color: rgb(59, 75, 117);
   }
   h3{
     font-family: 'Montserrat', sans-serif;
@@ -189,12 +202,6 @@ body {
   /* 
     TEXT ELEMENTS -------------------
   */
-  
-  section h1{
-    font-size: 2em;
-    text-transform: uppercase;
-    font-weight: 800;
-  }
   section h2 {
     color: rgb(59, 75, 117);
     font-weight: 600;
