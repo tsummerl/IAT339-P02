@@ -25,16 +25,7 @@
   }
   .flexPlan:focus, .flexPlan:hover{
     border: 2px solid rgb(26, 189, 197);
-  }
-  .flexPlan
-  {
-    padding: 1em;
-    margin: 0.5em;
-    border: 2px solid #C7C7C7;
-    border-radius: 0.5em;
-  }
-  .flexPlan:focus, .flexPlan:hover{
-    border: 2px solid rgb(26, 189, 197);
+    cursor: pointer;
   }
 .Grid {
   margin-bottom: 2em;
@@ -73,9 +64,9 @@ label{
   }
 }
 @media (min-width: 36em) {
-  /* .flexPlan>h2, .flexPlan>h3{
+  .flexPlan>h2, .flexPlan>h3{
     font-size: larger;
-  } */
+  }
   .signupForm, .choosePlan{
     padding: 2em;
   }
