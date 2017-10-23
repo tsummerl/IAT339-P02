@@ -168,7 +168,7 @@ body {
     }
   input:hover, input:focus{
     outline: none;
-    border-bottom: 0.25em solid rgb(26, 189, 197);
+    border-color: rgb(236, 179, 94);
   }
   /* Normal button */
   .button {
@@ -230,7 +230,7 @@ body {
   }
   select{
     padding: 0.5em;
-    border: 2px solid rgb(26, 189, 197);
+    border: 1px solid rgb(52, 187, 192);
     color: gray;
     width: 100%;
   }
@@ -289,7 +289,6 @@ body {
       display: block;
       transition: .3s background-color;
     }
-
 
   }
 

@@ -3,7 +3,6 @@ $(document).ready(function(){
     var tabContent, tabLinks;
     tabContent = $('.tabContent').css("display", "none");
     tabLinks = $(".buttonNav.accountButtonNav");
-    console.log("onReady");
     tabLinks.click(function(){
         var id = $(this).attr("id");
         console.log(id);
@@ -27,6 +26,4 @@ $(document).ready(function(){
         $(this).addClass("activeNavButton");
         $(this).parent().addClass("activeNavButton");
     });
-
-
 });

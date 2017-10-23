@@ -24,8 +24,22 @@
     margin: 0;
   }
   .flexPlan:focus, .flexPlan:hover{
-    border: 2px solid rgb(26, 189, 197);
+    border: 2px solid rgb(236, 179, 94);
     cursor: pointer;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+  }
+  .flexPlanActive{
+    border: 2px solid rgb(236, 179, 94);
+    background-color: rgb(253, 185, 90);
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .flexPlanActive>h3{
+    color: rgb(255, 250, 245);;
+    -webkit-transition: color 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
   }
 .Grid {
   margin-bottom: 2em;
@@ -49,7 +63,6 @@ label{
 #cityDiv, #provinceDiv{
   flex: 2;
 }
-
 @media (max-width: 36em){
   .Grid-cell-1of4{
     width: 50%!important;
