@@ -10,6 +10,18 @@ body {
     color:#3D3D3D;
     line-height: 1.5em;
   }
+  @media (min-width: 87.500em)
+  {
+    body{
+      margin: 0 10em;
+    }
+  }
+  @media (min-width: 67.500em)
+  {
+    body{
+      margin: 0 5em;
+    }
+  }
   h1{
     font-family: 'Montserrat', sans-serif;
     line-height: 1em;
@@ -144,7 +156,7 @@ body {
   input{
     padding: 0.5em;
     font-size: 1em;
-    width: 70%;
+    width: 100%;
     box-sizing: border-box;
     border: none;
     border-bottom: 0.15em solid rgb(120, 198, 201);
@@ -227,7 +239,7 @@ body {
     outline: none;
   }
   /*M E D I A Q U E R I E S*/
-  @media screen and (min-width: 0) {
+  @media (min-width: 0) {
     .flexnav
     {
       display: none;
