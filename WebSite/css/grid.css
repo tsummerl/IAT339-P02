@@ -239,7 +239,6 @@ body{
   -webkit-flex: none!important;
   -ms-flex: none!important;
   flex: none!important;
-  margin-bottom: 2em;
 }
 .Grid-cell-All>a{
   width: 100%;
