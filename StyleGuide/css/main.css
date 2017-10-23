@@ -222,16 +222,7 @@ section h2 {
   color: #E26456;
   font-weight: 700;
 }
-.flexPlan
-{
-  padding: 1em;
-  margin: 0.5em;
-  border: 2px solid #C7C7C7;
-  border-radius: 0.5em;
-}
-.flexPlan:focus, .flexPlan:hover{
-  border: 2px solid rgb(26, 189, 197);
-}
+
 /* End Product listing */
 
 /* A C C O U N T V I E W N A V */

@@ -1,19 +1,4 @@
 
-  /* Product listing */
-  .productListing
-  {
-      line-height: 1.2em;
-  }
-  .productListing h2
-  {
-    padding: 0;
-    margin: 0;
-  }
-  
-  .productListing h3
-  {
-    font-size: 1.1em;
-  }
   .small-info
   {
     font-weight: 300;
@@ -34,6 +19,20 @@
   .flexPlan>h2, .flexPlan>h3, .flexPlan>.savings{
     font-size: smaller;
   }
+  .flexPlan>h2, .flexPlan>h3{
+    padding: 0;
+    margin: 0;
+  }
+  .flexPlan:focus, .flexPlan:hover{
+    border: 2px solid rgb(26, 189, 197);
+  }
+  .flexPlan
+  {
+    padding: 1em;
+    margin: 0.5em;
+    border: 2px solid #C7C7C7;
+    border-radius: 0.5em;
+  }
   .flexPlan:focus, .flexPlan:hover{
     border: 2px solid rgb(26, 189, 197);
   }
@@ -46,7 +45,6 @@
 .nextStep{
   padding-top: 2em !important;
 }
-
 label{
   display: inline-block;
   width: 10em;
@@ -75,19 +73,10 @@ label{
   }
 }
 @media (min-width: 36em) {
-  .flexPlan
-  {
-    padding: 1em;
-  }
-  .flexPlan>h2, .flexPlan>h3{
+  /* .flexPlan>h2, .flexPlan>h3{
     font-size: larger;
-  }
-  .productListing
-  {
-      line-height: 1.2em;
-      padding: 2em;
-  }
-  .signupForm{
+  } */
+  .signupForm, .choosePlan{
     padding: 2em;
   }
 
