@@ -6,7 +6,7 @@
     color: white;
     outline: none;
   }
-  .accountButtonNav, .subheaderNav, .accountNav ul {
+  .accountButtonNav, .subheaderNav {
     background-color: rgba(180, 180, 180, 0);
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
@@ -24,22 +24,21 @@
     margin: 0;
     width: 100vw;
   }
-  .accountNav ul li button{
+  .accountNav button{
+      margin: 0;
+      padding-top: 2.5em;
+      padding-bottom: 2.5em;
       color: rgb(26, 189, 197);
       border: none;
       cursor: pointer;
   }
-  .subheaderNav li {
-      box-sizing: content-box;
-      width: 25%;
-      text-align: center;
-  }
-.subheaderNav li:hover, .subheaderNav li:focus{
-    background-color: rgb(26, 189, 197);
+
+.subheaderNav button:hover, .subheaderNav button:focus{
+    background-color: rgb(120, 198, 201);
 }
 .activeNavButton{
     color: white!important;
-    background-color: rgb(26, 189, 197)!important;
+    background-color: rgb(120, 198, 201)!important;
     outline: none;
 }
 .subheaderNav li:hover > .buttonNav, .subheaderNav li:focus>.buttonNav{
@@ -65,8 +64,9 @@
       width: 100%;
       padding: 2rem 0;
     }
-    .accountNav{
-        border-right: 2px solid rgb(26, 189, 197);
+    .accountNav .nav{
+        padding-bottom: 12em;
+        border-right: 3px solid rgb(120, 198, 201);
     }
     .tabContent{
         display: none;
