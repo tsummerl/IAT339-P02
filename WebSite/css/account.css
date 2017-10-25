@@ -41,6 +41,11 @@
 .reviewIcons{
     max-height: 150px;
 }
+@media (min-width: 24em){
+    .subheaderNav{
+      margin-left: -2rem;
+    }
+}
     @media (min-width: 52em) {
     .subheaderNav {
         float: left;
