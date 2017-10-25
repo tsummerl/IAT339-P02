@@ -33,45 +33,24 @@
             </div>
         </nav>
     </div>
-<h1>Payment Confirmation</h1>
+<h1>Sign In</h1>
 <section class="orderSection">
-    <div class="orderSummary Grid Grid--gutters Grid--1of2">
+    <form class="Grid Grid--gutters">
         <div class="Grid-cell Grid-cell-All">
-            <h2>Order Summary</h2>
-        </div>
-        <div class="Grid-cell">
-            <p>Monthly Subscription</p>
-        </div>
-        <div class="Grid-cell textRight">
-            <p>25.00</p>
-        </div>
-        <div class="Grid-cell">
-            <p>Shipping</p>
-        </div>
-        <div class="Grid-cell textRight">
-            <p>5.99</p>
-        </div>
-        <div class="Grid-cell">
-            <p>Tax</p>
-        </div>
-        <div class="Grid-cell textRight">
-            <p>4.19</p>
+            <label for="inputSignInUsername">Username:</label>
+            <input id="inputSignInUsername" name="username" placeholder="Username" type="text">
         </div>
         <div class="Grid-cell Grid-cell-All">
-            <div class="line"></div>
-        </div>
-        <div class="total Grid-cell">
-            <p>Total</p>
-        </div>
-        <div class="total Grid-cell textRight">
-            <p>35.18</p>
+            <label for="inputSignInPassword">Password:</label>
+            <input id="inputSignInPassword" name="password" placeholder="Password" type="text">
         </div>
         <div class="Grid-cell Grid-cell-All">
-            <small id="legalDisclaimerBoxPurchase">Subscriptions are for an ongoing service that is billed seasonally or annually depending on the option chosen. You may cancel your membership at any time online or by contacting Tale and Tea Support. By clicking "Order the Box" you are agreeing to our Terms of Uses and Sale.</small>
+            <a href="account.html" class="orderButton button">Sign In</a>
         </div>
         <div class="Grid-cell Grid-cell-All">
-            <a href="signIn.html" class="orderButton button">Order the Box</a>
+            <input type="checkbox" name="checkRememberMe" checked="checked">
+            <label for="checkRememberMe">Remember Me</label>
         </div>
-    </div>
+    </form>
 </section>
 </html>

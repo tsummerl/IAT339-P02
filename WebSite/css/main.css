@@ -296,7 +296,9 @@ body {
     }
     
   }
-  
+  input[type='checkbox'] {
+    width: min-content !important;
+   }
   @media (min-width: 24em){
     body{
       padding: 0 2rem;
