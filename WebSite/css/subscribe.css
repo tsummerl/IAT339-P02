@@ -40,6 +40,10 @@
 .Grid {
   margin-bottom: 2em;
 }
+
+footer .Grid {
+  margin-bottom: 0;
+}
 .smallHidden{
   display: none;
 }

@@ -208,6 +208,7 @@ body {
 
   /* Footer */
   footer {
+    bottom: 0;
     background-color: rgb(59, 75, 117);
     box-sizing: border-box;
     width: 100vw;
