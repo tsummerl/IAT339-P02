@@ -106,6 +106,9 @@ summary:hover {
     font-weight: bold;
     color: rgb(236, 179, 94);
 }
+.choosePlan{
+    margin-right: -1em;
+  }
 @media (min-width: 24em){
     .subheaderNav{
       margin-left: -2rem;

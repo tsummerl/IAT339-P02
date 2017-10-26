@@ -63,6 +63,7 @@ label{
 #cityDiv, #provinceDiv{
   flex: 2;
 }
+
 @media (max-width: 36em){
   .Grid-cell-1of4{
     width: 50%!important;

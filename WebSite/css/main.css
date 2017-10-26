@@ -193,7 +193,11 @@ body {
     -webkit-transition: background-color 0.5s ease-out;
     transition: background-color 0.5s ease-out;
   }
-  
+  button.button{
+    cursor: pointer;
+    padding: 1em;
+    border: none;
+  }
   .button:hover, .button:focus {
     background-color: #2D8586;
   }
