@@ -73,7 +73,11 @@ summary:hover {
     color 0.3s ease-in;
     transition: all 0.3s ease-in,
     color 0.3s ease-in;
-}		
+}
+.lastQuizTaken{
+    font-weight: bold;
+    color: rgb(236, 179, 94);
+}	
 @media (min-width: 24em){
     .subheaderNav{
       margin-left: -2rem;
