@@ -41,6 +41,39 @@
 .reviewIcons{
     max-height: 150px;
 }
+.pastBoxes{
+    color: rgb(236, 179, 94);
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+}
+details{
+    margin: 1em;
+}
+.detail-dropdown{
+    padding: 1.5em;
+    display: block;
+    background-color: #f8f8f8;
+}
+.detail-dropdown{
+    outline:none;
+}
+.detail-answer{
+    padding: 1.5em;
+    color: #666666;
+    border: 1px solid #e6e6e6;
+}
+summary:hover {
+    color: rgb(120, 198, 201);
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in,
+    color 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in,
+    color 0.3s ease-in;
+    transition: all 0.3s ease-in,
+    color 0.3s ease-in;
+}		
 @media (min-width: 24em){
     .subheaderNav{
       margin-left: -2rem;
