@@ -73,7 +73,11 @@ body {
   section p {
     margin-top: 0;
   }
-  
+  .savings{
+    color: #E26456;
+    margin: 0;
+    font-weight: 700;
+  }
   .header-nav, .headerNav
   {
     display: none;
@@ -124,7 +128,7 @@ body {
   .flexelement img{
     max-width: 100%;
   }
-  
+
   /* 
   INTERACTIVE ELEMENTS -------------------
   */

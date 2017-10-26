@@ -74,10 +74,38 @@ summary:hover {
     transition: all 0.3s ease-in,
     color 0.3s ease-in;
 }
+.flexPlan
+{
+  padding: 1em;
+  width: 100%;
+  border: 2px solid #C7C7C7;
+  border-radius: 0.5em;
+}
+
+.flexPlan>h2, .flexPlan>h3{
+  padding: 0;
+  margin: 0;
+}
+.flexPlanActive{
+  border: 2px solid rgb(236, 179, 94);
+  background-color: rgb(253, 185, 90);
+}
+
+.flexPlanActive>h4{
+  color: rgb(255, 250, 245);
+}
+.flexPlan>h2, .flexPlan>h3, .flexPlan>.savings{
+    font-size: smaller;
+    padding: 0;
+    margin: 0;
+  }
+.flexPlan>h3{
+    color: rgb(59, 75, 117);
+  }
 .lastQuizTaken{
     font-weight: bold;
     color: rgb(236, 179, 94);
-}	
+}
 @media (min-width: 24em){
     .subheaderNav{
       margin-left: -2rem;
