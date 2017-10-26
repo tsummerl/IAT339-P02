@@ -83,6 +83,7 @@ body {
   }
   nav img
   {
+    padding-left: 1em;
     max-height: 2.5em;
   }
   .navMain{
