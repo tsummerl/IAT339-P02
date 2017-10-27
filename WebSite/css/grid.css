@@ -256,7 +256,9 @@ body{
   width: 25%!important;
   flex: none!important;
 }
-
+.fullWidth{
+  width: 100%;
+}
 .flexHigher{
   flex: 3;
 }
