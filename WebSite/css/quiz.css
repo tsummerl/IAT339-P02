@@ -21,3 +21,12 @@
     background-color: rgba(96, 197, 201, 0.418);
     border-radius: 5px;
 }
+
+@media (max-width: 37.5em) {
+    .quizRow>.quizAnswer {
+        -ms-flex-grow: 1;
+        flex-grow: 1;
+        -ms-flex-basis: auto;
+        flex-basis: auto;
+    }
+}
