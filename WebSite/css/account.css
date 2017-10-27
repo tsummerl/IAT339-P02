@@ -119,9 +119,11 @@ summary:hover {
   }
   body {
     display: flex;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .content {
+    -ms-flex: 1 0 auto;
     flex: 1 0 auto;
   }
 footer {
@@ -161,6 +163,7 @@ footer {
 }
 @media (max-width: 32.813em){
     .choosePlan>.Grid-cell, .orderSummary>.Grid-cell{
+        -ms-flex: 0 0 100% !important;
         flex: 0 0 100% !important;
     }
 }
@@ -174,6 +177,7 @@ footer {
 
     .accountNav .nav{
         padding-bottom: 12em;
+        -ms-flex: none;
         flex: none;
         display: block;
         border-right: 3px solid rgb(120, 198, 201);

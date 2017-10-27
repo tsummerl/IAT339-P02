@@ -61,19 +61,23 @@ label{
   font-family: sans-serif;
 }
 #cityDiv, #provinceDiv{
+  -ms-flex: 2;
   flex: 2;
 }
 html, body {
   height: 100%;
 }
 body {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 .informationAboutSubscription{
   padding-top: 4em;
 }
 .content {
+  -ms-flex: 1 0 auto;
   flex: 1 0 auto;
 }
 footer {
@@ -110,8 +114,6 @@ footer .footerNames {
   #cityDiv{
     width: 100%;
     width: 100%;
-    -webkit-box-flex: 0;
-    -webkit-flex: none;
     -ms-flex: none;
     flex: none;
   }
