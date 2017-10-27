@@ -21,7 +21,6 @@
 }
 .quizAnswer>.quizAnswerInfo:hover, .quizAnswer>.quizAnswerInfo:focus{
     cursor: pointer;
-    /* border: 2px solid rgba(26, 191, 197, 0.548); */
     background-color: rgb(255, 198, 117);
     border-radius: 5px;
 }
