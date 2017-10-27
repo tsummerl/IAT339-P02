@@ -109,6 +109,40 @@ summary:hover {
 .choosePlan{
     margin-right: -1em;
   }
+
+footer {
+    bottom: 0;
+    background-color: rgb(59, 75, 117);
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 0;
+  }
+
+  footer a {
+    color: white;
+    display: block;
+    text-align: right;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+
+  footer a:nth-child(1) {
+    padding-top: 1rem;
+  }
+
+  footer img {
+    max-width: 100px;
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+
+  footer .footerNames {
+    text-align: left;
+  }
+
 @media (min-width: 24em){
     .subheaderNav{
       margin-left: -2rem;
