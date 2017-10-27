@@ -53,7 +53,6 @@ section {
     display: block;
     height: auto;
     margin: auto;
-    width: 80em;
     max-width: 100%;
 }
 
@@ -129,21 +128,29 @@ section {
 #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
     color: #428bca;
 }
+.infoCarousel {
+    background-color: rgba(236, 177, 94, 0.8);
+    z-index: 5;
+    bottom: 20%;
+    margin: 0 3em;
+    padding-bottom: 1em;
+}
+.infoCarousel h1{
+    color: white;
+}
 .largeCarouselButton
 {
     text-transform: uppercase;
-    bottom: 20%;
-    padding: 1em 1em;
     margin: 0 4em;
 }
 
 @media (min-width: 23.4375em)
 {
-    .largeCarouselButton
+    .infoCarousel
     {
-        text-transform: uppercase;
-        bottom: 20%;
-        padding: 1em 1em;
+        bottom: 10%;
+    }
+    .largeCarouselButton .largeCarouselButton{
         margin: 0 5em;
     }
 }
@@ -153,7 +160,6 @@ section {
     .largeCarouselButton{
         font-size: larger;
         font-weight: bold;
-        padding: 1.5em 2em;
         margin: 0 5em;
     }
 }
