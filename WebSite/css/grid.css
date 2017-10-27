@@ -119,7 +119,7 @@ body{
     }
   }
   
-  @media (min-width: 67.813em) {
+  @media (min-width: 75.313em) {
     .large-Grid--fit > .Grid-cell {
       flex: 1;
     }
