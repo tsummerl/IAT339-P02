@@ -63,7 +63,9 @@ label{
 #cityDiv, #provinceDiv{
   flex: 2;
 }
-
+.informationAboutSubscription{
+  padding-top: 4em;
+}
 @media (max-width: 36em){
   .Grid-cell-1of4{
     width: 50%!important;
@@ -84,5 +86,15 @@ label{
   .signupForm, .choosePlan{
     padding: 2em;
   }
-
+@media (min-width: 67.500em)
+  {
+    body{
+      margin: 0 10em;
+    }
+  }
+}
+@media (min-width: 85em){
+  body{
+    margin: 0 20em;
+  }
 }
