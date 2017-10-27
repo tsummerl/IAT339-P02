@@ -5,10 +5,13 @@
     padding: 1em 0 0 1em;
 }
 .quizAnswer>.quizAnswerInfo{
-    border: 2px solid rgba(70, 70, 70, 0.37);
+    max-width: 400px; /* Max size for the pictures*/
+    border: 2px solid rgba(255, 255, 255, 0.37);
     border-radius: 5px;
-    padding: 2em;
-    background-color: rgb(240, 240, 240);
+    padding: 1em;
+    color: gray;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
 }
 .quizAnswerInfo>img{
     max-width: 100%;
@@ -17,16 +20,15 @@
     padding: 2em 0;
 }
 .quizAnswer>.quizAnswerInfo:hover, .quizAnswer>.quizAnswerInfo:focus{
-    border: 2px solid rgb(26, 189, 197);
-    background-color: rgba(96, 197, 201, 0.418);
+    cursor: pointer;
+    /* border: 2px solid rgba(26, 191, 197, 0.548); */
+    background-color: rgb(255, 198, 117);
     border-radius: 5px;
 }
 
 @media (max-width: 37.5em) {
     .quizRow>.quizAnswer {
-        -ms-flex-grow: 1;
-        flex-grow: 1;
-        -ms-flex-basis: auto;
-        flex-basis: auto;
+        flex: none;
+        width: 100%;
     }
 }
