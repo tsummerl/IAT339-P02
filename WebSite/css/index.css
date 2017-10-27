@@ -3,10 +3,11 @@ body{
 }
 
 section {
-    margin-top: 2em;
     margin-bottom: 2em;
 }
-
+section #threeSteps{
+    margin-top: 2em;
+}
 .section-style2{
     padding: 0rem 0rem 1rem 2em;
     margin: 1rem;
@@ -53,7 +54,6 @@ section {
     display: block;
     height: auto;
     margin: auto;
-    width: 80em;
     max-width: 100%;
 }
 
@@ -129,31 +129,48 @@ section {
 #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
     color: #428bca;
 }
+.infoCarousel {
+    background-color: rgba(236, 177, 94, 0.8);
+    z-index: 5;
+    bottom: 20%;
+    margin: 0 3em;
+    padding-bottom: 1em;
+    display: none;
+}
+.infoCarousel h1{
+    color: white;
+}
 .largeCarouselButton
 {
     text-transform: uppercase;
-    bottom: 20%;
-    padding: 1em 1em;
     margin: 0 4em;
-}
-
-@media (min-width: 23.4375em)
-{
-    .largeCarouselButton
-    {
-        text-transform: uppercase;
-        bottom: 20%;
-        padding: 1em 1em;
-        margin: 0 5em;
-    }
 }
 
 @media (min-width: 27.75em)
 {
+    .infoCarousel
+    {
+        display: block;
+        bottom: 10%;
+        margin: 0 5em;
+    }
+    .infoCarousel h1{
+        color: white;
+        font-size: 1.5em;
+    }
     .largeCarouselButton{
-        font-size: larger;
-        font-weight: bold;
-        padding: 1.5em 2em;
+        margin: 0 5em;
+    }
+}
+
+@media (min-width: 35.75em)
+{
+    .infoCarousel h1{
+        color: white;
+        font-size: 2em;
+    }
+    .largeCarouselButton{
+        font-size: 1.5em;
         margin: 0 5em;
     }
 }

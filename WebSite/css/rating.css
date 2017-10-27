@@ -1,19 +1,22 @@
 
 /* https://css-tricks.com/star-ratings/ */
 .rating {
+    margin-left: -0.4em;
     unicode-bidi: bidi-override;
     direction: rtl;
     font-size: 2em;
     float: left;
   }
   .rating > span {
+    color: rgb(236, 179, 94);
     display: inline-block;
     position: relative;
     width: 1.1em;
   }
   .rating > span:hover:before,
   .rating > span:hover ~ span:before {
-    color: rgb(26, 189, 197);
+    cursor: pointer;
+    color: rgb(236, 179, 94);
     content: "\2605";
     position: absolute;
   }
@@ -37,6 +40,7 @@ section{
     display: block;
 }
 .textArea > textarea{
+    margin-top: 1em;
     padding: 1em;
     font-size: 1em;
     width:100%;
@@ -48,3 +52,6 @@ section{
 .textArea > textarea:focus{
     outline: none;
 }
+.imageRating > img{
+    max-width: 100%;
+  }

@@ -211,8 +211,6 @@ body {
   }
 
 #threeSteps {
-  border: 10px solid rgb(120, 198, 201);
-  border-radius: 15px;
   text-align: center;
 }
 
@@ -222,12 +220,15 @@ body {
 }
 
 .homeThreeSteps img {
-  max-width: 150px;
+  max-width: 125px;
   text-align: center;
   display: block;
   margin: auto;
 }
-  
+.homeThreeSteps{
+  margin:0 1em;
+  border-bottom: 2px solid rgb(120, 198, 201);
+} 
 
   /* Footer */
   footer {
