@@ -3,10 +3,11 @@ body{
 }
 
 section {
-    margin-top: 2em;
     margin-bottom: 2em;
 }
-
+section #threeSteps{
+    margin-top: 2em;
+}
 .section-style2{
     padding: 0rem 0rem 1rem 2em;
     margin: 1rem;
@@ -134,6 +135,7 @@ section {
     bottom: 20%;
     margin: 0 3em;
     padding-bottom: 1em;
+    display: none;
 }
 .infoCarousel h1{
     color: white;
@@ -144,22 +146,31 @@ section {
     margin: 0 4em;
 }
 
-@media (min-width: 23.4375em)
+@media (min-width: 27.75em)
 {
     .infoCarousel
     {
+        display: block;
         bottom: 10%;
+        margin: 0 5em;
     }
-    .largeCarouselButton .largeCarouselButton{
+    .infoCarousel h1{
+        color: white;
+        font-size: 1.5em;
+    }
+    .largeCarouselButton{
         margin: 0 5em;
     }
 }
 
-@media (min-width: 27.75em)
+@media (min-width: 35.75em)
 {
+    .infoCarousel h1{
+        color: white;
+        font-size: 2em;
+    }
     .largeCarouselButton{
-        font-size: larger;
-        font-weight: bold;
+        font-size: 1.5em;
         margin: 0 5em;
     }
 }
