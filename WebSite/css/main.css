@@ -355,6 +355,9 @@ body {
   input[type='checkbox'] {
     width: min-content !important;
    }
+   .paddingBottom{
+    padding-bottom: 2em !important;
+  }
   @media (min-width: 24em){
     body{
       padding: 0 2rem;
