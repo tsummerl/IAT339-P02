@@ -1,0 +1,109 @@
+.Grid {
+	display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.styleguideNav {
+	padding: 0;
+	background-color: rgb(120, 198, 201);
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+.styleguideNav a {
+	display: block;
+	padding: 1rem;
+	color: white;
+	text-decoration: none;
+}
+
+.styleguideNav .Grid-cell {
+	-webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;	
+}
+
+.styleguideNav .Grid-cell:hover, .styleguideNav .Grid-cell:focus {
+	background-color: rgb(59, 75, 117);
+}
+
+.element {
+	margin: 1rem 0 1rem 0;
+	padding: 1rem;
+	background-color: rgb(250, 250, 250);
+}
+
+h4 {
+	color: black;
+}
+
+code {
+	display: block;
+	padding: 0.5rem;
+	background-color: white;
+}
+
+.element .headerNav {
+	position: relative;
+	width: auto;
+	margin-left: 0;
+	left: 0;
+}
+
+.flexPlan {
+    padding: 1em;
+    width: 100%;
+    border: 2px solid #C7C7C7;
+    border-radius: 0.5em;
+}
+
+.flexPlan>h2, .flexPlan>h3, .flexPlan>.savings {
+   font-size: 1em;
+}
+  
+.flexPlan>h2, .flexPlan>h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.flexPlan:focus, .flexPlan:hover{
+    border: 2px solid rgb(236, 179, 94);
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.swatch {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+#primary {
+	background-color: rgb(120, 198, 201);
+}
+
+#secondary {
+	background-color: rgb(59, 75, 117);
+}
+
+#tertiary {
+	background-color: rgb(236, 179, 94);
+}
+
+@media (max-width: 40em) {
+	.swatch {
+		margin: auto;
+	}
+
+	.par-Grid--1of3 {
+		display: block;
+	}
+
+	.med-Grid--1of3 {
+		display: block;
+		width: 100%;
+	}
+}
