@@ -1,6 +1,4 @@
   /* A C C O U N T V I E W N A V */
-
-
   .accountButtonNav:active, .accountButtonNav:hover, .accountButtonNav:focus {
     background-color: rgba(180, 180, 180, 0);
     color: rgb(120, 198, 201);
@@ -38,6 +36,7 @@
     color: rgb(236, 179, 94)!important;
     border-bottom: 1px solid rgb(236, 179, 94)!important;
 }
+  /* A C C O U N T V I E W N A V END */
 .reviewIcons{
     max-height: 150px;
 }
@@ -48,6 +47,8 @@
     font-size: 1em;
     font-weight: bold;
 }
+
+/* For the past boxes accordion */
 details{
     margin: 1em;
 }
@@ -74,6 +75,8 @@ summary:hover {
     transition: all 0.3s ease-in,
     color 0.3s ease-in;
 }
+
+/* For the subscription type */
 .flexPlan
 {
   padding: 1em;
@@ -107,21 +110,26 @@ summary:hover {
     color: rgb(236, 179, 94);
     font-weight: bold;
 }
+.choosePlan{
+    margin-right: -1em;
+  }
+
+/* Subscription type End */
 .lastQuizTaken{
     font-weight: bold;
     color: rgb(236, 179, 94);
 }
-.choosePlan{
-    margin-right: -1em;
-  }
+/* For the sticky footer */
   html, body {
     height: 100%;
   }
   body {
     display: flex;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .content {
+    -ms-flex: 1 0 auto;
     flex: 1 0 auto;
   }
 footer {
@@ -154,6 +162,7 @@ footer {
 .marginSubOffset{
     margin-right: 1em;
 }
+/* sticky footer end*/
 @media (min-width: 24em){
     .subheaderNav{
       margin-left: -2rem;
@@ -161,6 +170,7 @@ footer {
 }
 @media (max-width: 32.813em){
     .choosePlan>.Grid-cell, .orderSummary>.Grid-cell{
+        -ms-flex: 0 0 100% !important;
         flex: 0 0 100% !important;
     }
 }
@@ -174,6 +184,7 @@ footer {
 
     .accountNav .nav{
         padding-bottom: 12em;
+        -ms-flex: none;
         flex: none;
         display: block;
         border-right: 3px solid rgb(120, 198, 201);
@@ -196,8 +207,6 @@ footer {
     .tabContent{
         display: none;
         padding: 0em 1em;
-        /* border: 2px solid rgb(26, 189, 197);
-        border-left: none; */
         width: 75%;
         float: left;
     }

@@ -30,13 +30,16 @@ html, body {
     height: 100%;
   }
   body {
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .informationAboutSubscription{
     padding-top: 4em;
   }
   .content {
+    -ms-flex: 1 0 auto;
     flex: 1 0 auto;
   }
   footer {
@@ -67,6 +70,7 @@ html, body {
   }
 @media (max-width: 37.5em) {
     .quizRow>.quizAnswer {
+        -ms-flex: none;
         flex: none;
         width: 100%;
     }
