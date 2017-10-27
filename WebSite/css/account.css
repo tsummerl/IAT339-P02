@@ -101,7 +101,12 @@ summary:hover {
   }
 .flexPlan>h3{
     color: rgb(59, 75, 117);
-  }
+}
+.orderSummary h3{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(236, 179, 94);
+    font-weight: bold;
+}
 .lastQuizTaken{
     font-weight: bold;
     color: rgb(236, 179, 94);
@@ -142,10 +147,17 @@ footer {
   footer .footerNames {
     text-align: left;
   }
-
+.marginSubOffset{
+    margin-right: 1em;
+}
 @media (min-width: 24em){
     .subheaderNav{
       margin-left: -2rem;
+    }
+}
+@media (max-width: 32.813em){
+    .choosePlan>.Grid-cell, .orderSummary>.Grid-cell{
+        flex: 0 0 100% !important;
     }
 }
     @media (min-width: 52em) {
