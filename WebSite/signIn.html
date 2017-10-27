@@ -15,6 +15,7 @@
 </head>
 <body>
 </body>
+<div class="content">
     <div class="headerNav">
         <nav class="navMain">
             <div class="Grid">
@@ -33,24 +34,42 @@
             </div>
         </nav>
     </div>
-<h1>Sign In</h1>
-<section class="orderSection">
-    <form class="Grid Grid--gutters">
-        <div class="Grid-cell Grid-cell-All">
-            <label for="inputSignInUsername">Username:</label>
-            <input id="inputSignInUsername" name="username" placeholder="Username" type="text">
+    <h1>Sign In</h1>
+    <section class="orderSection">
+        <form class="Grid Grid--gutters">
+            <div class="Grid-cell Grid-cell-All">
+                <label for="inputSignInUsername">Username:</label>
+                <input id="inputSignInUsername" name="username" placeholder="Username" type="text">
+            </div>
+            <div class="Grid-cell Grid-cell-All">
+                <label for="inputSignInPassword">Password:</label>
+                <input id="inputSignInPassword" name="password" placeholder="Password" type="text">
+            </div>
+            <div class="Grid-cell Grid-cell-All">
+                <a href="account.html" class="orderButton button">Sign In</a>
+            </div>
+            <div class="Grid-cell Grid-cell-All">
+                <input type="checkbox" name="checkRememberMe" checked="checked">
+                <label for="checkRememberMe">Remember Me</label>
+            </div>
+        </form>
+    </section>
+</div>
+<footer>
+    <div class="Grid Grid-no-margin">
+        <div class="Grid-cell">
+            <a class="footerNav" href="citations.html">Citations</a>
+            <a class="footerNav" href="styleguide.html">Style Guide</a>
+            <a class="footerNav" href="https://github.com/tsummerl/IAT339-P02" target="_blank">GitHub Repository</a>
         </div>
-        <div class="Grid-cell Grid-cell-All">
-            <label for="inputSignInPassword">Password:</label>
-            <input id="inputSignInPassword" name="password" placeholder="Password" type="text">
+        <div class="Grid-cell">
+            <img src="img/logo-large.png" alt="Tale and Tea's big logo">
         </div>
-        <div class="Grid-cell Grid-cell-All">
-            <a href="account.html" class="orderButton button">Sign In</a>
+        <div class="Grid-cell">
+            <a class="footerNames" href="#">Twilight Summerland</a>
+            <a class="footerNames" href="#">&amp; Rebecca Harrington</a>
+            <a class="footerNames" href="https://iat339.andrewh.ca/">IAT339 : Fall 2017</a>
         </div>
-        <div class="Grid-cell Grid-cell-All">
-            <input type="checkbox" name="checkRememberMe" checked="checked">
-            <label for="checkRememberMe">Remember Me</label>
-        </div>
-    </form>
-</section>
+    </div>
+</footer>
 </html>
