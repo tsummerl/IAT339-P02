@@ -1,4 +1,4 @@
-
+/* CHOOSING THE SUBSCRIPTION */
   .small-info
   {
     font-weight: 300;
@@ -40,10 +40,7 @@
 .Grid {
   margin-bottom: 2em;
 }
-
-footer .Grid {
-  margin-bottom: 0;
-}
+/* CHOOSING THE SUBSCRIPTION */
 .smallHidden{
   display: none;
 }
@@ -64,8 +61,12 @@ label{
   -ms-flex: 2;
   flex: 2;
 }
+/* STICKY FOOTER */
 html, body {
   height: 100%;
+}
+footer .Grid {
+  margin-bottom: 0;
 }
 body {
   display: -ms-flexbox;
@@ -107,6 +108,7 @@ footer img {
 footer .footerNames {
   text-align: left;
 }
+/* END THE STICKY FOOTER */
 @media (max-width: 36em){
   .Grid-cell-1of4{
     width: 50%!important;
@@ -125,11 +127,11 @@ footer .footerNames {
   .signupForm, .choosePlan{
     padding: 2em;
   }
+}
 @media (min-width: 67.500em)
-  {
-    body{
-      margin: 0 10em;
-    }
+{
+  body{
+    margin: 0 10em;
   }
 }
 @media (min-width: 85em){

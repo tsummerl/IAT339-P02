@@ -42,7 +42,6 @@ body {
     color: rgb(26, 189, 197);
   }
 
-  */
   /* Navigation Styling */
   #small-nav
   {
@@ -50,8 +49,7 @@ body {
     border: 0.05em solid #E9E9E9;
     border-radius: 3px;
   }
-  #small-nav .button-nav:hover, #small-nav .button-nav:focus, .buttonNav:hover, .buttonNav:focus
-  {
+  #small-nav .button-nav:hover, #small-nav .button-nav:focus, .buttonNav:hover, .buttonNav:focus{
     text-decoration: underline;
     background-color: rgba(120, 198, 201, 0);
     color: rgb(120, 198, 201);
@@ -143,7 +141,7 @@ body {
     color: white;
     background-color: rgb(59, 75, 117);
     text-decoration: none;
-    -webkit-transition: all 0.25s ease-out;
+    -ms-transition: all 0.25s ease-out;
     transition: all 0.25s ease-out;
   }
   

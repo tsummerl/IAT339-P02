@@ -1,4 +1,4 @@
-
+/* RATING STAR */
 /* https://css-tricks.com/star-ratings/ */
 .rating {
     margin-left: -0.4em;
@@ -20,6 +20,7 @@
     content: "\2605";
     position: absolute;
   }
+  /* RATING STAR END */
 .grid-cell{
     margin: 1em;
 }

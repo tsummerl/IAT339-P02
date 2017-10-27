@@ -16,6 +16,7 @@ section #threeSteps{
     text-align: left !important;
     font-size: 2.5em;
 }
+/* CAROUSEL */
 /*carousel taken from https://codepen.io/SitePoint/pen/MyPVdK/ and altered*/
 #carousel{
     margin-left: -1rem;
@@ -129,6 +130,7 @@ section #threeSteps{
 #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
     color: #428bca;
 }
+/* CAROUSEL TEXT AND BUTTON */
 .infoCarousel {
     background-color: rgba(236, 177, 94, 0.8);
     z-index: 5;
@@ -145,7 +147,7 @@ section #threeSteps{
     text-transform: uppercase;
     margin: 0 4em;
 }
-
+/* END CAROUSEL */
 @media (min-width: 27.75em)
 {
     .infoCarousel
