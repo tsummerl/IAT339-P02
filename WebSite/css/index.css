@@ -1,6 +1,12 @@
 body{
     padding: 0;
 }
+
+section {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
 .section-style2{
     padding: 0rem 0rem 1rem 2em;
     margin: 1rem;

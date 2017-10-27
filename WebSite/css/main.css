@@ -208,6 +208,24 @@ body {
     color: rgb(59, 75, 117);
     font-weight: 600;
   }
+
+#threeSteps {
+  border: 10px solid rgb(120, 198, 201);
+  border-radius: 15px;
+  text-align: center;
+}
+
+#threeStepsH2 {
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+}
+
+.homeThreeSteps img {
+  max-width: 150px;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
   
 
   /* Footer */
