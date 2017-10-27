@@ -1,6 +1,7 @@
 'use strict';
 $(document).ready(function(){
     var tabContent, tabLinks;
+    $(".subheaderNav").css("display", "block");
     tabContent = $('.tabContent').css("display", "none");
     tabLinks = $(".buttonNav.accountButtonNav");
     $("#tabCurr").addClass("activeNavButton");
