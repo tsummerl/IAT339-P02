@@ -58,7 +58,9 @@ body{
   .Grid-cell--center {
     align-self: center;
   }
-  
+  .Grid-cell > img{
+    max-width: 100%;
+  }
   .Grid-cell--autoSize {
     flex: none;
   }
