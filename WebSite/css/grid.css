@@ -83,7 +83,7 @@ body{
     flex: 0 0 25%;
   }
   
-  @media (min-width: 24em) {
+  @media (min-width: 20em) {
     .small-Grid--fit > .Grid-cell {
       flex: 1;
     }
@@ -101,7 +101,7 @@ body{
     }
   }
   
-  @media (min-width: 47.125em) {
+  @media (min-width: 37.125em) {
     .med-Grid--fit > .Grid-cell {
       flex: 1;
     }
@@ -119,7 +119,7 @@ body{
     }
   }
   
-  @media (min-width: 40em) {
+  @media (min-width: 67.813em) {
     .large-Grid--fit > .Grid-cell {
       flex: 1;
     }
