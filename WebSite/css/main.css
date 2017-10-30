@@ -46,7 +46,7 @@ body {
     max-width: 20rem;
     display: block;
     margin: auto;
-    padding: 5em 0 2em 0;
+    padding: 5em 1em 2em 1em;
     text-align: center;
 
   }
@@ -58,10 +58,13 @@ body {
     border: 0.05em solid #E9E9E9;
     border-radius: 3px;
   }
-  #small-nav .button-nav:hover, #small-nav .button-nav:focus, .buttonNav:hover, .buttonNav:focus{
+  #small-nav, #small-nav{
     text-decoration: underline;
     background-color: rgba(120, 198, 201, 0);
     color: rgb(120, 198, 201);
+  }
+  .navMain .buttonNav:hover, .navMain .buttonNav:focus{
+    border-bottom: 2px solid white;
   }
   #small-nav ul{
     padding: 0.1em;
@@ -91,6 +94,8 @@ body {
     display: none;
   }
   nav{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300 !important;
     padding: 0 0.2em;
   }
   nav img
@@ -100,10 +105,7 @@ body {
   }
   .navMain{
     background-color: rgb(59, 75, 117);
-  }
-  .navMain a:hover{
-    text-decoration: underline;
-    background-color: rgb(44, 55, 83);
+    line-height: 1em;
   }
   .navMain a{
     width: 100%;
@@ -145,20 +147,13 @@ body {
   .button-nav, .buttonNav {
     display: inline-block;
     font-size: 0.9em;
-    font-weight: 500;
+    font-weight: 300;
     padding: 0.75em 1.25em;
     color: white;
     background-color: rgb(59, 75, 117);
     text-decoration: none;
-    -ms-transition: all 0.25s ease-out;
-    transition: all 0.25s ease-out;
   }
-  
-  .button-nav:hover, .button-nav:focus, .buttonNav:hover, .buttonNav:focus {
-    background-color: rgb(42, 56, 87);
-    color: white;
-    text-decoration: none;
-  }
+
   
   /* In-text link*/
   .in-text-link
@@ -336,21 +331,7 @@ body {
       left: 50%;
       /*background-color: rgb(59, 75, 117);*/
     }
-    
-    .headerNav ul {
-      background-color: rgb(59, 75, 117);
-    }
-    .nav ul {
-      list-style: none;
-      text-align: left;
-      padding: 0;
-      margin: 0;
-    }
-    
-    .mainNav li {
-      width: 25%;
-      text-align: center;
-    }
+  
     
     .nav a {
       text-decoration: none;
@@ -371,7 +352,7 @@ body {
     }
     nav img
     {
-      max-height: 3em;
+      max-height: 2.8em;
     }
     .navMain a{
       font-size: 1em;
