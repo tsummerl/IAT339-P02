@@ -59,9 +59,7 @@ label{
   flex: 2;
 }
 /* STICKY FOOTER */
-html, body {
-  height: 100%;
-}
+
 footer .Grid {
   margin-bottom: 0;
 }
@@ -127,12 +125,12 @@ footer .footerNames {
 }
 @media (min-width: 67.500em)
 {
-  body{
-    margin: 0 10em;
+  .infoContent{
+    padding: 0 10em;
   }
 }
 @media (min-width: 85em){
-  body{
-    margin: 0 20em;
+  .infoContent{
+    padding: 0 20em;
   }
 }

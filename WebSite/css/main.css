@@ -2,10 +2,17 @@
   STYLE GUIDE STYLING 
   Default styling for the style guide 
 */
+body, html{
+  width: 100%;
+  height: 100%;
+}
+.infoContent
+{
+  padding: 0 1rem;
+}
 body {
     font-family: 'Roboto Slab', serif;
     margin: 0;
-    padding: 0 1rem;
     font-size: 0.9em;
     color:#3D3D3D;
     line-height: 1.5em;
@@ -246,9 +253,9 @@ body {
     bottom: 0;
     background-color: rgb(59, 75, 117);
     box-sizing: border-box;
-    width: 100vw;
+    width: 100%;
     position: relative;
-    margin-left: -50vw;
+    margin-left: -50%;
     left: 50%;
   }
 
@@ -333,9 +340,9 @@ body {
     .header-nav, .headerNav{
       display: block;
       box-sizing: border-box;
-      width: 100vw;
+      width: 100%;
       position: relative;
-      margin-left: -50vw;
+      margin-left: -50%;
       top: 0;
       left: 50%;
       /*background-color: rgb(59, 75, 117);*/
@@ -356,7 +363,7 @@ body {
     padding-bottom: 2em !important;
   }
   @media (min-width: 24em){
-    body{
+    .infoContent{
       padding: 0 2rem;
     }
     nav img
@@ -369,13 +376,13 @@ body {
   }
   @media (min-width: 87.500em)
   {
-    body{
-      margin: 0 10em;
+    .infoContent{
+      padding: 0 10em;
     }
   }
   @media (min-width: 67.500em)
   {
-    body{
-      margin: 0 5em;
+    .infoContent{
+      padding: 0 5em;
     }
   }
