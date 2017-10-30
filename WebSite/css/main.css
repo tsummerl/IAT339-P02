@@ -93,11 +93,19 @@ body {
   nav{
     padding: 0 0.2em;
   }
-  nav img
+  /*nav img
   {
     padding-left: 1em;
     max-height: 2.5em;
-  }
+  }*/
+
+.navMain img {
+    /*padding-left: 1em;*/
+    margin-left: 1em;
+    margin-top: 0.5em;
+    max-height: 2.5em;
+}
+
   .navMain{
     background-color: rgb(59, 75, 117);
   }
@@ -146,7 +154,8 @@ body {
     display: inline-block;
     font-size: 0.9em;
     font-weight: 500;
-    padding: 0.75em 1.25em;
+    /*padding: 0.75em 1.25em;*/
+    padding: 1em 1.25em;
     color: white;
     background-color: rgb(59, 75, 117);
     text-decoration: none;
