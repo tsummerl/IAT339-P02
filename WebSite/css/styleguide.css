@@ -54,6 +54,14 @@ code {
 	left: 0;
 }
 
+.element .navMain {
+	padding: 0;
+}
+
+.buttonNav:hover, .buttonNav:focus{
+    border-bottom: 2px solid white;
+}
+
 .flexPlan {
     padding: 1em;
     width: 100%;
