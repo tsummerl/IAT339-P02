@@ -46,14 +46,14 @@ body {
     color: rgb(26, 189, 197);
   }
 
-  #headImg {
+#headImg {
     max-width: 18rem;
     display: block;
     margin: auto;
     padding: 5em 1em 2em 1em;
     text-align: center;
 
-  }
+}
 
   /* Navigation Styling */
   #small-nav
@@ -97,19 +97,13 @@ body {
   {
     display: none;
   }
-  nav{
+nav{
     font-family: "Montserrat", sans-serif;
     font-weight: 300 !important;
     padding: 0 0.2em;
   }
-  /*nav img
-  {
-    padding-left: 1em;
-    max-height: 2.5em;
-  }*/
 
 .navMain img {
-    /*padding-left: 1em;*/
     margin-left: 1em;
     margin-top: 0.5em;
     max-height: 2.5em;
