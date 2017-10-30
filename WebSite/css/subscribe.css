@@ -37,9 +37,6 @@
     -webkit-transition: color 0.5s ease-in-out;
     transition: color 0.5s ease-in-out;
   }
-.Grid {
-  margin-bottom: 2em;
-}
 /* CHOOSING THE SUBSCRIPTION */
 .smallHidden{
   display: none;
