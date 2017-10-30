@@ -42,6 +42,15 @@ body {
     color: rgb(26, 189, 197);
   }
 
+  #headImg {
+    max-width: 20rem;
+    display: block;
+    margin: auto;
+    padding: 5em 0 2em 0;
+    text-align: center;
+
+  }
+
   /* Navigation Styling */
   #small-nav
   {
