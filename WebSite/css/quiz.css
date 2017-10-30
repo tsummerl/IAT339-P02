@@ -6,10 +6,9 @@
 }
 .quizAnswer>.quizAnswerInfo{
     max-width: 400px; /* Max size for the pictures*/
-    border: 2px solid rgba(255, 255, 255, 0.37);
     border-radius: 5px;
     padding: 1em;
-    color: gray;
+    color: rgb(77, 76, 76);
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
 }
@@ -21,8 +20,11 @@
 }
 .quizAnswer>.quizAnswerInfo:hover, .quizAnswer>.quizAnswerInfo:focus{
     cursor: pointer;
-    background-color: rgb(255, 198, 117);
+    background-color: rgba(238, 159, 63, 0.192);
     border-radius: 5px;
+}
+.quizAnswerInfoSelected{
+    background-color: rgb(255, 198, 117);
 }
 /* All for the sticky footer */
 html, body {

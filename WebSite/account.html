@@ -15,190 +15,192 @@
 </head>
 <body>
     <div class="content">
-            <div class="headerNav">
-                    <nav class="navMain">
-                        <div class="Grid">
+        <div class="headerNav">
+                <nav class="navMain">
+                    <div class="Grid">
+                        <div class="Grid-cell">
+                            <a href="index.html"><img src="img/logo-small.png" alt="Tale and Tea small logo"></a>
+                        </div>
+                        <div class="Grid-cell">
+                            <div class="Grid">
+                                <div class="Grid-cell">
+                                    <a class="buttonNav" href="subscribe.html">Subscribe</a> 
+                                </div>
+                                <div class="Grid-cell">
+                                    <a class="buttonNav" href="signIn.html">Sign In</a>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="infoContent">
+                <h1>Account</h1>
+                <div class="subheaderNav">
+                    <nav class="accountNav">
+                        <div class="nav Grid Grid-cell">
                             <div class="Grid-cell">
-                                <a href="index.html"><img src="img/logo-small.png" alt="Tale and Tea small logo"></a>
+                                <button class="buttonNav accountButtonNav" id="tabCurr">Current Box</button>
                             </div>
                             <div class="Grid-cell">
-                                <div class="Grid">
-                                    <div class="Grid-cell">
-                                        <a class="buttonNav" href="subscribe.html">Subscribe</a> 
-                                    </div>
-                                    <div class="Grid-cell">
-                                        <a class="buttonNav" href="signIn.html">Sign In</a>    
-                                    </div>
-                                </div>
+                                <button class="buttonNav accountButtonNav" id="tabPast">Past Boxes</button>
+                            </div>
+                            <div class="Grid-cell">
+                                <button class="buttonNav accountButtonNav" id="tabSub">Subscription</button>
+                            </div>
+                            <div class="Grid-cell">
+                                <button class="buttonNav accountButtonNav" id="tabQuiz">Quiz</button>
                             </div>
                         </div>
                     </nav>
                 </div>
-        <h1>Account</h1>
-        <div class="subheaderNav">
-            <nav class="accountNav">
-                <div class="nav Grid Grid-cell">
-                    <div class="Grid-cell">
-                        <button class="buttonNav accountButtonNav" id="tabCurr">Current Box</button>
-                    </div>
-                    <div class="Grid-cell">
-                        <button class="buttonNav accountButtonNav" id="tabPast">Past Boxes</button>
-                    </div>
-                    <div class="Grid-cell">
-                        <button class="buttonNav accountButtonNav" id="tabSub">Subscription</button>
-                    </div>
-                    <div class="Grid-cell">
-                        <button class="buttonNav accountButtonNav" id="tabQuiz">Quiz</button>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    
-        <div id="myCurrBox" class="tabContent">
-            <h2>My Current Box</h2>
-            <hr>
-            <div class="Grid Grid--gutters large-Grid--1of4 med-Grid--1of2 small-Grid--full">
-                <div class="Grid-cell textCenter">
-                    <img class="reviewIcons" src="img/indProducts/1-tea1.png" alt="Organic Chocolate Cake Tea Sampler">
-                    <h3>Tea Sampler</h3>
-                    <p>Organic Chocolate Cake Tea Sample by DavidsTea</p>
-                    <a class="button" href="rating.html">Write a Review</a>
-                </div>
-                <div class="Grid-cell textCenter">
-                    <img class="reviewIcons" src="img/indProducts/1-book.jpg" alt="Book 'I thought it was Just Me (But it Wasn't)'">
-                    <h3>Book</h3>
-                    <p>I Thought it was Just Me (But it Wasn't) by Brene Brown</p>
-                    <a class="button" href="rating.html">Write a Review</a>
-                </div>
-                <div class="Grid-cell textCenter">
-                    <img class="reviewIcons" src="img/indProducts/1-tea2.jpg" alt="Organic mother's little helper Tea Sampler">
-                    <h3>Tea Sampler</h3>
-                    <p>Organic Mother's Little Helper Sample by DavidsTea</p>
-                    <a class="button" href="rating.html">Write a Review</a>
-                </div>
-                <div class="Grid-cell textCenter">
-                    <img class="reviewIcons" src="img/indProducts/1-mug.jpg" alt="Coffee mug with 'Tea Freak hit me with your best pot'">
-                    <h3>Coffee Mug</h3>
-                    <p>Porcelain coffee mug with saying</p>
-                    <a class="button" href="rating.html">Write a Review</a>
-                </div>
-            </div>
-        </div>
-        <div id="myPastBox" class="tabContent">
-            <h2>Past Boxes</h2>
-            <hr>
-            <details>
-                <summary class="detail-dropdown pastBoxes">September 2017</summary>
-                <div class="detail-answer">
+            
+                <div id="myCurrBox" class="tabContent">
+                    <h2>My Current Box</h2>
+                    <hr>
                     <div class="Grid Grid--gutters large-Grid--1of4 med-Grid--1of2 small-Grid--full">
                         <div class="Grid-cell textCenter">
-                            <img class="reviewIcons" src="img/indProducts/2-tea1.jpg" alt="Organic Very Berry Tea Sampler">
-                            <h4>Tea Sampler</h4>
-                            <p>Organic Very Berry Tea Sample by DavidsTea</p>
+                            <img class="reviewIcons" src="img/indProducts/1-tea1.png" alt="Organic Chocolate Cake Tea Sampler">
+                            <h3>Tea Sampler</h3>
+                            <p>Organic Chocolate Cake Tea Sample by DavidsTea</p>
                             <a class="button" href="rating.html">Write a Review</a>
                         </div>
                         <div class="Grid-cell textCenter">
-                            <img class="reviewIcons" src="img/indProducts/3-book.jpg" alt="Book 'I thought it was Just Me (But it Wasn't)'">
-                            <h4>Book</h4>
-                            <p>Gone Girl by Gillian Flynn</p>
+                            <img class="reviewIcons" src="img/indProducts/1-book.jpg" alt="Book 'I thought it was Just Me (But it Wasn't)'">
+                            <h3>Book</h3>
+                            <p>I Thought it was Just Me (But it Wasn't) by Brene Brown</p>
                             <a class="button" href="rating.html">Write a Review</a>
                         </div>
                         <div class="Grid-cell textCenter">
-                            <img class="reviewIcons" src="img/indProducts/2-tea2.jpg" alt="Walnut Green Tea Sampler">
-                            <h4>Tea Sampler</h4>
-                            <p>Walnut Green Tea Sampler Sample by DavidsTea</p>
+                            <img class="reviewIcons" src="img/indProducts/1-tea2.jpg" alt="Organic mother's little helper Tea Sampler">
+                            <h3>Tea Sampler</h3>
+                            <p>Organic Mother's Little Helper Sample by DavidsTea</p>
                             <a class="button" href="rating.html">Write a Review</a>
                         </div>
                         <div class="Grid-cell textCenter">
-                            <img class="reviewIcons" src="img/indProducts/2-mug.png" alt="Coffee mug with 'My Mug'">
+                            <img class="reviewIcons" src="img/indProducts/1-mug.jpg" alt="Coffee mug with 'Tea Freak hit me with your best pot'">
                             <h3>Coffee Mug</h3>
                             <p>Porcelain coffee mug with saying</p>
                             <a class="button" href="rating.html">Write a Review</a>
                         </div>
                     </div>
                 </div>
-            </details>
-            <details>
-                <summary class="detail-dropdown pastBoxes">August 2017</summary>
-                <div class="detail-answer">
-                    <div class="Grid Grid--gutters large-Grid--1of4 med-Grid--1of2 small-Grid--full">
-                        <div class="Grid-cell textCenter">
-                            <img class="reviewIcons" src="img/indProducts/3-tea1.jpg" alt="Organic Japanese Green Tea Sampler">
-                            <h4>Tea Sampler</h4>
-                            <p>Organic Japanese Green Tea Sampler by Japan's Finest Ocha</p>
-                            <a class="button" href="rating.html">Write a Review</a>
+                <div id="myPastBox" class="tabContent">
+                    <h2>Past Boxes</h2>
+                    <hr>
+                    <details>
+                        <summary class="detail-dropdown pastBoxes">September 2017</summary>
+                        <div class="detail-answer">
+                            <div class="Grid Grid--gutters large-Grid--1of4 med-Grid--1of2 small-Grid--full">
+                                <div class="Grid-cell textCenter">
+                                    <img class="reviewIcons" src="img/indProducts/2-tea1.jpg" alt="Organic Very Berry Tea Sampler">
+                                    <h4>Tea Sampler</h4>
+                                    <p>Organic Very Berry Tea Sample by DavidsTea</p>
+                                    <a class="button" href="rating.html">Write a Review</a>
+                                </div>
+                                <div class="Grid-cell textCenter">
+                                    <img class="reviewIcons" src="img/indProducts/3-book.jpg" alt="Book 'I thought it was Just Me (But it Wasn't)'">
+                                    <h4>Book</h4>
+                                    <p>Gone Girl by Gillian Flynn</p>
+                                    <a class="button" href="rating.html">Write a Review</a>
+                                </div>
+                                <div class="Grid-cell textCenter">
+                                    <img class="reviewIcons" src="img/indProducts/2-tea2.jpg" alt="Walnut Green Tea Sampler">
+                                    <h4>Tea Sampler</h4>
+                                    <p>Walnut Green Tea Sampler Sample by DavidsTea</p>
+                                    <a class="button" href="rating.html">Write a Review</a>
+                                </div>
+                                <div class="Grid-cell textCenter">
+                                    <img class="reviewIcons" src="img/indProducts/2-mug.png" alt="Coffee mug with 'My Mug'">
+                                    <h3>Coffee Mug</h3>
+                                    <p>Porcelain coffee mug with saying</p>
+                                    <a class="button" href="rating.html">Write a Review</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="Grid-cell textCenter">
-                            <img class="reviewIcons" src="img/indProducts/2-book.jpg" alt="Book 'Fifty Typefaces That Changed The World'">
-                            <h4>Book</h4>
-                            <p>Fifty Typefaces That Changed The World by Design Museum</p>
-                            <a class="button" href="rating.html">Write a Review</a>
+                    </details>
+                    <details>
+                        <summary class="detail-dropdown pastBoxes">August 2017</summary>
+                        <div class="detail-answer">
+                            <div class="Grid Grid--gutters large-Grid--1of4 med-Grid--1of2 small-Grid--full">
+                                <div class="Grid-cell textCenter">
+                                    <img class="reviewIcons" src="img/indProducts/3-tea1.jpg" alt="Organic Japanese Green Tea Sampler">
+                                    <h4>Tea Sampler</h4>
+                                    <p>Organic Japanese Green Tea Sampler by Japan's Finest Ocha</p>
+                                    <a class="button" href="rating.html">Write a Review</a>
+                                </div>
+                                <div class="Grid-cell textCenter">
+                                    <img class="reviewIcons" src="img/indProducts/2-book.jpg" alt="Book 'Fifty Typefaces That Changed The World'">
+                                    <h4>Book</h4>
+                                    <p>Fifty Typefaces That Changed The World by Design Museum</p>
+                                    <a class="button" href="rating.html">Write a Review</a>
+                                </div>
+                                <div class="Grid-cell textCenter">
+                                    <img class="reviewIcons" src="img/indProducts/3-tea2.jpg" alt="Organic Blueberry Pie in the Sky Sampler">
+                                    <h4>Tea Sampler</h4>
+                                    <p>Organic Blueberry Pie in the Sky Sampler by Flirtea</p>
+                                    <a class="button" href="rating.html">Write a Review</a>
+                                </div>
+                                <div class="Grid-cell textCenter">
+                                    <img class="reviewIcons" src="img/indProducts/3-mug.jpeg" alt="Tea Cup with flower outlines">
+                                    <h3>Tea Cup</h3>
+                                    <p>Porcelain tea cup with flower design</p>
+                                    <a class="button" href="rating.html">Write a Review</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="Grid-cell textCenter">
-                            <img class="reviewIcons" src="img/indProducts/3-tea2.jpg" alt="Organic Blueberry Pie in the Sky Sampler">
-                            <h4>Tea Sampler</h4>
-                            <p>Organic Blueberry Pie in the Sky Sampler by Flirtea</p>
-                            <a class="button" href="rating.html">Write a Review</a>
+                    </details>
+                </div>
+                <div id="mySub" class="tabContent">
+                    <h2>My Subscription</h2>
+                    <hr>
+                    <div class="choosePlan Grid Grid--gutters Grid--1of3 Grid--flexCells">
+                        <div class="Grid-cell">
+                            <div class="flexPlan">
+                                <h3>Monthly</h3>
+                                <h4>$25.00 CAD</h4>
+                            </div>
+                         </div>
+                        <div class="Grid-cell">
+                            <div class="flexPlan flexPlanActive">
+                                <h3>Yearly</h3>
+                                <h4>$250.00 CAD</h4>
+                                <p class="savings">$50 dollar savings!</p>
+                            </div>
+                         </div>
+                        <div class="Grid-cell textRight"><p class="fullWidth"><a href="#" class="in-text-link marginSubOffset">Edit</a></p></div>
+                    </div>
+                    <div class="orderSummary Grid Grid--gutters Grid--1of3">
+                        <div class="Grid-cell"><h3>Email:</h3></div>
+                        <div class="Grid-cell"><p>fakeuser@gmail.com</p></div>
+                        <div class="Grid-cell textRight"><p><a href="#" class="in-text-link">Edit</a></p></div>
+                        <div class="Grid-cell"><h3>Password:</h3></div>
+                        <div class="Grid-cell"><p>*****</p></div>
+                        <div class="Grid-cell textRight"><p><a href="#" class="in-text-link">Edit</a></p></div>
+                        <div class="Grid-cell"><div class="Grid-cell"><h3>Subscription Address:</h3></div></div>
+                        <div class="Grid-cell"><p>Hipster TeaDrinker<br>1234 Craft Beer lane<br>Portland, OR 91829 USA</p></div>
+                        <div class="Grid-cell textRight"><p><a href="#" class="in-text-link">Edit</a></p></div>
+                    </div>
+                    <div class="Grid Grid--gutters Grid--1of3">            
+                    </div>
+            
+                </div>
+                <div id="myQuiz" class="tabContent paddingBottom">
+                    <h2>Quiz</h2>
+                    <hr>
+                    <p>The quiz (along with reviews) helps us currate your montly box.  If you've changed your mind about certain items (such as you no longer drink coffee) feel free to redo the quiz!  Just come back to Quiz tab and click the <em>"Take The Quiz"</em> button</p>
+                    <div class="Grid Grid--gutters Grid--1of2">
+                        <div class="Grid-cell">
+                            <p class="lastQuizTaken">Last Quiz Taken:</p>
                         </div>
-                        <div class="Grid-cell textCenter">
-                            <img class="reviewIcons" src="img/indProducts/3-mug.jpeg" alt="Tea Cup with flower outlines">
-                            <h3>Tea Cup</h3>
-                            <p>Porcelain tea cup with flower design</p>
-                            <a class="button" href="rating.html">Write a Review</a>
+                        <div class="Grid-cell textRight">
+                            <p> August 4th 2017</p>
                         </div>
                     </div>
-                </div>
-            </details>
-        </div>
-        <div id="mySub" class="tabContent">
-            <h2>My Subscription</h2>
-            <hr>
-            <div class="choosePlan Grid Grid--gutters Grid--1of3 Grid--flexCells">
-                <div class="Grid-cell">
-                    <div class="flexPlan">
-                        <h3>Monthly</h3>
-                        <h4>$25.00 CAD</h4>
-                    </div>
-                 </div>
-                <div class="Grid-cell">
-                    <div class="flexPlan flexPlanActive">
-                        <h3>Yearly</h3>
-                        <h4>$250.00 CAD</h4>
-                        <p class="savings">$50 dollar savings!</p>
-                    </div>
-                 </div>
-                <div class="Grid-cell textRight"><p class="fullWidth"><a href="#" class="in-text-link marginSubOffset">Edit</a></p></div>
-            </div>
-            <div class="orderSummary Grid Grid--gutters Grid--1of3">
-                <div class="Grid-cell"><h3>Email:</h3></div>
-                <div class="Grid-cell"><p>fakeuser@gmail.com</p></div>
-                <div class="Grid-cell textRight"><p><a href="#" class="in-text-link">Edit</a></p></div>
-                <div class="Grid-cell"><h3>Password:</h3></div>
-                <div class="Grid-cell"><p>*****</p></div>
-                <div class="Grid-cell textRight"><p><a href="#" class="in-text-link">Edit</a></p></div>
-                <div class="Grid-cell"><div class="Grid-cell"><h3>Subscription Address:</h3></div></div>
-                <div class="Grid-cell"><p>Hipster TeaDrinker<br>1234 Craft Beer lane<br>Portland, OR 91829 USA</p></div>
-                <div class="Grid-cell textRight"><p><a href="#" class="in-text-link">Edit</a></p></div>
-            </div>
-            <div class="Grid Grid--gutters Grid--1of3">            
-            </div>
-    
-        </div>
-        <div id="myQuiz" class="tabContent paddingBottom">
-            <h2>Quiz</h2>
-            <hr>
-            <p>The quiz (along with reviews) helps us currate your montly box.  If you've changed your mind about certain items (such as you no longer drink coffee) feel free to redo the quiz!  Just come back to Quiz tab and click the <em>"Take The Quiz"</em> button</p>
-            <div class="Grid Grid--gutters Grid--1of2">
-                <div class="Grid-cell">
-                    <p class="lastQuizTaken">Last Quiz Taken:</p>
-                </div>
-                <div class="Grid-cell textRight">
-                    <p> August 4th 2017</p>
+                    <a class="button" href="quiz.html">Take The Quiz</a>
                 </div>
             </div>
-            <a class="button" href="quiz.html">Take The Quiz</a>
-        </div>
-    </div>
+            </div>
     <footer>
         <div class="Grid Grid-no-margin">
             <div class="Grid-cell">
