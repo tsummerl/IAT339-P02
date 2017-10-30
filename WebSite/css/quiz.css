@@ -76,3 +76,13 @@ html, body {
         width: 100%;
     }
 }
+@media (min-width: 37.5em){
+    .largeSpacing{
+        padding: 0 10em;
+    }
+}
+@media (min-width: 60.5em){
+    .largeSpacing{
+        padding: 0 20em;
+    }
+}
